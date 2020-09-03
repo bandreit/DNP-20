@@ -1,0 +1,13 @@
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.exe
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.deps.json
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.runtimeconfig.json
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.runtimeconfig.dev.json
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.dll
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\bin\Debug\netcoreapp3.1\S1-Ex7.pdb
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.csprojAssemblyReference.cache
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.AssemblyInfoInputs.cache
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.AssemblyInfo.cs
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.csproj.CoreCompileInputs.cache
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.dll
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.pdb
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session1\S1-Ex7\S1-Ex7\obj\Debug\netcoreapp3.1\S1-Ex7.genruntimeconfig.cache
