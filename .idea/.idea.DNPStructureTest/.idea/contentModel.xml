@@ -94,6 +94,9 @@
       </e>
       <e p="Session2\S2-Ex1" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Company.cs" t="Include" />
+        <e p="Employee.cs" t="Include" />
+        <e p="FullTimeEmployee.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -101,8 +104,73 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
+        <e p="PartTimeEmployee.cs" t="Include" />
         <e p="S2-Ex1.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Session2\S2-Ex2\S2-Ex2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="S2-Ex2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="S2-Ex2.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Session2\S2-Ex3\S2-Ex3" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="S2-Ex3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="S2-Ex3.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Session2\S2-Ex4\S2-Ex4" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Main.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="S2-Ex4.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Patient.cs" t="Include" />
+        <e p="S2-Ex4.csproj" t="IncludeRecursive" />
+        <e p="WaitingRoom.cs" t="Include" />
+      </e>
+      <e p="Session2\S2-Ex5\S2-Ex5" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Car.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="S2-Ex5.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="S2-Ex5.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Session2\S2-Ex6\S2-Ex6" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bird.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="S2-Ex6.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="S2-Ex6.csproj" t="IncludeRecursive" />
+        <e p="Watcher.cs" t="Include" />
       </e>
     </e>
   </component>
