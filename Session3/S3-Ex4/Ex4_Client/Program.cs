@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using System.Text;
 
-namespace S3_Ex3___Client
+namespace Ex4_Client
 {
     class Program
     {

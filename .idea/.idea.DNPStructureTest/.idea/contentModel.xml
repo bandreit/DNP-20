@@ -173,18 +173,6 @@
         <e p="Watcher.cs" t="Include" />
       </e>
       <e p="Session3" t="Include">
-        <e p="Client" t="IncludeRecursive">
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="Client.csproj" t="IncludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp3.1" t="Include">
-                <e p="Client.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Program.cs" t="Include" />
-        </e>
         <e p="S3-Ex1\S3-Ex1" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
@@ -212,15 +200,6 @@
           <e p="S3-Ex2.csproj" t="IncludeRecursive" />
         </e>
         <e p="S3-Ex3\S3-Ex3 - Server" t="IncludeRecursive">
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp3.1" t="Include">
-                <e p="S3-Ex3 - Server.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Program.cs" t="Include" />
           <e p="S3-Ex3 - Server.csproj" t="IncludeRecursive" />
         </e>
         <e p="S3-Ex3 - Client" t="IncludeRecursive">
@@ -235,19 +214,32 @@
           <e p="Program.cs" t="Include" />
           <e p="S3-Ex3 - Client.csproj" t="IncludeRecursive" />
         </e>
-        <e p="S3-Ex4" t="Include" />
-        <e p="Server" t="IncludeRecursive">
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="CommunicationThreadHandler.cs" t="Include" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp3.1" t="Include">
-                <e p="Server.AssemblyInfo.cs" t="Include" />
+        <e p="S3-Ex4" t="Include">
+          <e p="Ex4_Client" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Ex4_Client.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Ex4_Client.AssemblyInfo.cs" t="Include" />
+                </e>
               </e>
             </e>
+            <e p="Program.cs" t="Include" />
           </e>
-          <e p="Program.cs" t="Include" />
-          <e p="Server.csproj" t="IncludeRecursive" />
+          <e p="Ex4_Server" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CommunicationThreadHandler.cs" t="Include" />
+            <e p="Ex4_Server.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Ex4_Server.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+          </e>
         </e>
       </e>
     </e>
