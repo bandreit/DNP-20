@@ -172,6 +172,58 @@
         <e p="S2-Ex6.csproj" t="IncludeRecursive" />
         <e p="Watcher.cs" t="Include" />
       </e>
+      <e p="Session3" t="Include">
+        <e p="S3-Ex1\S3-Ex1" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="S3-Ex1.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Person.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="S3-Ex1.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="S3-Ex2\S3-Ex2" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="S3-Ex2.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Person.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="S3-Ex2.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="S3-Ex3\S3-Ex3 - Server" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="S3-Ex3 - Server.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="S3-Ex3 - Server.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="S3-Ex3 - Client" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="S3-Ex3 - Client.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="S3-Ex3 - Client.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
     </e>
   </component>
 </project>

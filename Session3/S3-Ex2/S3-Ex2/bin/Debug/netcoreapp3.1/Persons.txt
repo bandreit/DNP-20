@@ -1,0 +1,3 @@
+{"FirstName":"Vasea","LastName":"Calpazan","Age":23,"Height":1.62,"IsMarried":false,"Sex":"M","Hobbies":["Boxing","Gaming"]}
+{"FirstName":"Fedea","LastName":"Murguov","Age":30,"Height":1.76,"IsMarried":true,"Sex":"M","Hobbies":["Cars","Eating"]}
+{"FirstName":"Marusea","LastName":"Bilcici","Age":40,"Height":1.65,"IsMarried":true,"Sex":"F","Hobbies":["Cooking","Gardening"]}
