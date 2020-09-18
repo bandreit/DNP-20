@@ -241,6 +241,37 @@
             <e p="Program.cs" t="Include" />
           </e>
         </e>
+        <e p="S3-Ex5" t="Include">
+          <e p="Ex5_Client" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Client.cs" t="Include" />
+            <e p="ClientReceiver.cs" t="Include" />
+            <e p="Ex5_Client.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Ex5_Client.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+          </e>
+          <e p="Ex5_Server" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="CommunicationThreadHandler.cs" t="Include" />
+            <e p="ConnectionPool.cs" t="Include" />
+            <e p="Ex5_Server.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Ex5_Server.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="Server.cs" t="Include" />
+          </e>
+        </e>
       </e>
     </e>
   </component>
