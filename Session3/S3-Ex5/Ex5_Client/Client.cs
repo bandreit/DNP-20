@@ -36,7 +36,7 @@ namespace Ex5_Client
 
         public void WriteOutputMessage(string response)
         {
-            Console.WriteLine(response);
+            Console.WriteLine("Received: " + response);
         }
     }
 }

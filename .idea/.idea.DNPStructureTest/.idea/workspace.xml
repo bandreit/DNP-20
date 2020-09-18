@@ -48,9 +48,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNPStructureTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNPStructureTest.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -703,7 +706,7 @@
       <workItem from="1599769851009" duration="718000" />
       <workItem from="1600323770285" duration="8839000" />
       <workItem from="1600334842192" duration="372000" />
-      <workItem from="1600335248528" duration="32349000" />
+      <workItem from="1600335248528" duration="32495000" />
     </task>
     <servers />
   </component>
@@ -736,22 +739,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1600458738232">
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1600458931032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600458738232" />
-    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1600458738232">
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
+    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1600458931032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600458738232" />
-    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1600458738232">
+    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
+    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1600458931031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600458738232" />
-    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1600458738232">
+    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600458931031" />
+    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1600458931032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600458738232" />
+    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
     <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1600457020841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
