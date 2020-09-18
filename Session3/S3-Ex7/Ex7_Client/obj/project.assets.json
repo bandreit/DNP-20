@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TransferObject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/TransferObject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransferObject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TransferObject/1.0.0": {
+      "type": "project",
+      "path": "../TransferObject/TransferObject.csproj",
+      "msbuildProject": "../TransferObject/TransferObject.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TransferObject >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andy2\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andy2\\RiderProjects\\DNPStructureTest\\Session3\\S3-Ex7\\Ex7_Client\\Ex7_Client.csproj",
+      "projectName": "Ex7_Client",
+      "projectPath": "C:\\Users\\andy2\\RiderProjects\\DNPStructureTest\\Session3\\S3-Ex7\\Ex7_Client\\Ex7_Client.csproj",
+      "packagesPath": "C:\\Users\\andy2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andy2\\RiderProjects\\DNPStructureTest\\Session3\\S3-Ex7\\Ex7_Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\andy2\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\andy2\\RiderProjects\\DNPStructureTest\\Session3\\S3-Ex7\\TransferObject\\TransferObject.csproj": {
+              "projectPath": "C:\\Users\\andy2\\RiderProjects\\DNPStructureTest\\Session3\\S3-Ex7\\TransferObject\\TransferObject.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\andy2\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

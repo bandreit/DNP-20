@@ -25,7 +25,7 @@ namespace Ex5_Server
                 byte[] dataFromClient = new byte[1024];
                 int bytesRead = Stream.Read(dataFromClient, 0, dataFromClient.Length);
                 string s = Encoding.ASCII.GetString(dataFromClient, 0, bytesRead);
-                Console.WriteLine("Received " + s);
+                Console.WriteLine(s);
 
                 if (s == "exit")
                 {

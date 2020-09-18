@@ -27,6 +27,10 @@
     <projectFile>Session3/S3-Ex4/Ex4_Server/Ex4_Server.csproj</projectFile>
     <projectFile>Session3/S3-Ex5/Ex5_Client/Ex5_Client.csproj</projectFile>
     <projectFile>Session3/S3-Ex5/Ex5_Server/Ex5_Server.csproj</projectFile>
+    <projectFile>Session3/S3-Ex3 - Server/S3-Ex3 - Server.csproj</projectFile>
+    <projectFile>Session3/S3-Ex7/Ex7_Client/Ex7_Client.csproj</projectFile>
+    <projectFile>Session3/S3-Ex7/Ex7_Server/Ex7_Server.csproj</projectFile>
+    <projectFile>Session3/S3-Ex7/TransferObjec/TransferObjec.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -48,12 +52,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/TransferObject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPStructureTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNPStructureTest.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/S3-Ex3 - Server.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3 - Server.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3 - Server.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3 - Server.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/S3-Ex3.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server/obj/rider.project.restore.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/bin/Debug/netcoreapp3.1/Ex5_Client.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/CommunicationThreadHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/CommunicationThreadHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/bin/Debug/netcoreapp3.1/Ex5_Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/bin/Debug/netcoreapp3.1/Ex5_Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/bin/Debug/netcoreapp3.1/Ex5_Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/bin/Debug/netcoreapp3.1/Ex5_Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +122,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/67B31D0F-F69C-4253-AD32-759A2C663824/0/KnownColor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/6D/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session1/S1-Ex3/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/335/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/BB/Random.cs" root0="SKIP_HIGHLIGHTING" />
@@ -88,15 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Session1/S1-Ex5/S1-Ex5/MathLib/Calculator.cs" />
-        <option value="$PROJECT_DIR$/S1-Ex6/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/Program.cs" />
-        <option value="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/Program.cs" />
-        <option value="$PROJECT_DIR$/Session2/S2-Ex1/Employee.cs" />
         <option value="$PROJECT_DIR$/Session2/S2-Ex1/PartTimeEmployee.cs" />
         <option value="$PROJECT_DIR$/Session2/S2-Ex1/FullTimeEmployee.cs" />
         <option value="$PROJECT_DIR$/Session2/S2-Ex1/Program.cs" />
@@ -135,10 +171,19 @@
         <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/SocketPool.cs" />
         <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/ConnectionPool.cs" />
         <option value="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/CommunicationThreadHandler.cs" />
-        <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/CommunicationThreadHandler.cs" />
         <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/Server.cs" />
         <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/ClientReceiver.cs" />
         <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/Client.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/CommunicationThreadHandler.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/Program.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/CommunicationThreadHandler.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/ConnectionPool.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/Program.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/Server.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/TransferObjec/Program.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/ClientReceiver.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/Message.cs" />
+        <option value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/Client.cs" />
       </list>
     </option>
   </component>
@@ -158,7 +203,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
-  <component name="RunManager" selected=".NET Project.Ex5_Client">
+  <component name="RunManager" selected=".NET Project.Ex7_Client">
     <configuration name="Client" type="DotNetProject" factoryName=".NET Project" singleton="false">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Session3/Client/bin/Debug/netcoreapp3.1/Client.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -258,6 +303,42 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/Ex5_Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Ex7_Client" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/Ex7_Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Ex7_Server" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/Ex7_Server.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -591,6 +672,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="S3-Ex3 - Server" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/S3-Ex3 - Server/S3-Ex3 - Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="S3-Ex3" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -618,6 +717,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="TransferObjec" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/TransferObject.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -686,6 +803,10 @@
       <item itemvalue=".NET Project.Ex4_Server" />
       <item itemvalue=".NET Project.Ex5_Client" />
       <item itemvalue=".NET Project.Ex5_Server" />
+      <item itemvalue=".NET Project.S3-Ex3 - Server" />
+      <item itemvalue=".NET Project.Ex7_Client" />
+      <item itemvalue=".NET Project.Ex7_Server" />
+      <item itemvalue=".NET Project.TransferObjec" />
     </list>
     <recent_temporary>
       <list>
@@ -706,7 +827,7 @@
       <workItem from="1599769851009" duration="718000" />
       <workItem from="1600323770285" duration="8839000" />
       <workItem from="1600334842192" duration="372000" />
-      <workItem from="1600335248528" duration="32495000" />
+      <workItem from="1600335248528" duration="35521000" />
     </task>
     <servers />
   </component>
@@ -739,22 +860,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1600458931032">
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1600461953332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
-    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1600458931032">
+    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600461953332" />
+    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1600461953332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
-    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1600458931031">
+    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600461953332" />
+    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1600461953329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600458931031" />
-    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1600458931032">
+    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600461953329" />
+    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1600461953332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600458931032" />
+    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600461953332" />
     <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1600457020841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -819,14 +940,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="230" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1600457020843" />
-    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1600441686411">
+    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1600459866438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1600441686411" />
-    <state x="847" y="19" key="RiderGenerateDialog" timestamp="1600445506776">
+    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1600459866438" />
+    <state x="847" y="19" key="RiderGenerateDialog" timestamp="1600461526194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="847" y="19" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1600445506776" />
+    <state x="847" y="19" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1600461526194" />
     <state x="547" y="132" key="RollbackChangesDialog" timestamp="1600335696186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -843,10 +964,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599770464493" />
-    <state x="449" y="11" width="638" height="801" key="find.popup" timestamp="1600458666493">
+    <state x="449" y="11" width="638" height="801" key="find.popup" timestamp="1600461622452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="11" width="638" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600458666493" />
+    <state x="449" y="11" width="638" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600461622452" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1599764122748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -855,24 +976,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600327551195" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/CommunicationThreadHandler.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Server\CommunicationThreadHandler.cs" initialLine="29">
-            <startOffsets>
-              <option value="865" />
-            </startOffsets>
-            <endOffsets>
-              <option value="881" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
