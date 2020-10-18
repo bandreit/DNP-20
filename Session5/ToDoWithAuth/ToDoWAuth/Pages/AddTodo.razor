@@ -1,18 +1,30 @@
 ﻿@page "/AddTodo"
 @using ToDoWAuth.Data
 @using ToDoWAuth.Model
+@using System.Security.Claims
 @inject ITodosService TodoService
 @inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
 
 <h3>AddTodo</h3>
 
 <EditForm Model="@newTodoItem" OnValidSubmit="@AddNewTodo">
     <DataAnnotationsValidator/>
     <ValidationSummary/>
-    <div class="form-group">
-        User Id:<br/>
-        <InputNumber @bind-Value="newTodoItem.UserId"/>
-    </div>
+    <AuthorizeView Policy="CanDeleteTodo">
+        <Authorized Context="CanDelete">
+            <div>
+                Create a todo for yourself
+            </div>
+        </Authorized>
+        <NotAuthorized Context="notCanDelete">
+            <div class="form-group">
+                User Id:<br/>
+                <InputNumber @bind-Value="newTodoItem.UserId"/>
+            </div>
+        </NotAuthorized>
+    </AuthorizeView>
     <div class="form-group">
         Title:<br/>
         <InputTextArea rows="4" @bind-Value="newTodoItem.Title"/>
@@ -24,6 +36,14 @@
 
 @code {
     private Todo newTodoItem = new Todo();
+
+    protected async override Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));
+        newTodoItem.UserId = Convert.ToInt32(userClaim.Value);
+    }
 
     private void AddNewTodo()
     {

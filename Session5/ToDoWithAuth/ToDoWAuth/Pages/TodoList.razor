@@ -64,6 +64,27 @@ else
                 </tr>
             }
         </AuthorizeView>
+        <AuthorizeView Policy="CanDeleteTodo" Context="HzPrivateToDoer">
+            @foreach (var item in todosToShow)
+            {
+                <tr>
+                    <td>@item.UserId</td>
+                    <td>@item.TodoId</td>
+                    <td>hinea</td>
+                    <td style="text-decoration: @(item.IsCompleted ? "line-through" : "none")">@item.Title</td>
+                    <td>
+                        <input type="checkbox" checked=@item.IsCompleted @onchange="@((arg) => CompletedChange(arg, item))"/>
+                    </td>
+                    <AuthorizeView Policy="CanDeleteTodo">
+                        <td>
+                            <button @onclick=@(() => RemoveTodo(item.TodoId))>
+                                <i class="oi oi-trash" style="color: red"></i>
+                            </button>
+                        </td>
+                    </AuthorizeView>
+                </tr>
+            }
+        </AuthorizeView>
         <AuthorizeView Policy="CanViewAllToDos" Context="CanViewAllToDos">
             <Authorized>
                 @foreach (var item in ownTodosToShow)
@@ -139,7 +160,7 @@ else
     {
         allTodos = TodosService.GetTodos();
         todosToShow = allTodos;
-        
+
         var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
         var user = authState.User;
         Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));

@@ -26,6 +26,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 2,
                     City = "Aarhus",
                     Domain = "hotmail.com",
                     Password = "654321",
@@ -36,6 +37,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 3,
                     City = "Aarhus",
                     Domain = "whatever.com",
                     Password = "654321",
@@ -46,6 +48,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 4,
                     City = "Horsens",
                     Domain = "whatever.com",
                     Password = "123456",
@@ -56,6 +59,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 5,
                     City = "Horsens",
                     Domain = "whatever.com",
                     Password = "123456",
@@ -66,6 +70,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 6,
                     City = "Horsens",
                     Domain = "whatever.com",
                     Password = "123456",
@@ -76,6 +81,7 @@ namespace ToDoWAuth.Data.Impl
                 },
                 new User
                 {
+                    Id = 7,
                     City = "Horsens",
                     Domain = "whatever.com",
                     Password = "123456",

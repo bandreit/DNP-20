@@ -1,0 +1,41 @@
+﻿@page "/families"
+@using A1_DNP1Y.Data
+@using global::Models
+@inject IFamilyService FamilyService
+@using A1_DNP1Y.Components
+@using A1_DNP1Y.Persistence
+
+@if (_familiesToShow == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <div class="row">
+        @foreach (var family in _familiesToShow)
+        {
+            <FamilyCard StreetName=@family.StreetName HouseNumber=@family.HouseNumber>
+            </FamilyCard>
+        }
+    </div>
+}
+
+@code {
+    private IList<Family> _families;
+    private IList<Family> _familiesToShow;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _families = FamilyService.GetFamilies();
+        _familiesToShow = _families;
+
+    // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+    // var user = authState.User;
+    // Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));
+    // ownTodosToShow = allTodos.Where(t =>
+    //     t.UserId == Convert.ToInt32(userClaim.Value)).ToList();
+    }
+
+}

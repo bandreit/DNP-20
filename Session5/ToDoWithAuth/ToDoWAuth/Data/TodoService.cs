@@ -16,7 +16,7 @@ namespace ToDoWAuth.Data
             if (!File.Exists(todoFile))
             {
                 Seed();
-                WriteTodosToFile();
+                WriteTodosToFile();    
             }
             else
             {
