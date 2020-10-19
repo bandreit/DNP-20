@@ -4,155 +4,248 @@
 @using A1_DNP1Y.Persistence
 @using global::Models
 @using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.DropDowns
 @inject IFamilyService FamilyService
 @inject NavigationManager NavigationManager
 @using Syncfusion.Blazor.Buttons
 
 <div class="col-lg-12 control-section">
-    <EditForm Model="@_newFamily" OnValidSubmit="@AddNewFamily" class="content-wrapper">
-        @* <div class="row"> *@
-        @* <DataAnnotationsValidator/> *@
-        <ObjectGraphDataAnnotationsValidator />
-        <ValidationSummary/>
-        @* </div> *@
+<EditForm Model="@_newFamily" OnValidSubmit="@AddNewFamily" class="content-wrapper">
+<ObjectGraphDataAnnotationsValidator/>
 
-        <div>
-            <h2 class="font-weight-bold">Add A Family</h2>
-            <p>Please enter details below to add a family</p>
-            <hr/>
+<div>
+    <h2 class="font-weight-bold">Add A Family</h2>
+    <p>Please enter details below to add a family</p>
+    <hr/>
+</div>
+
+<div id="form-div" class="card p-4">
+<h3>Address</h3>
+<hr style="margin-bottom: 0"/>
+<div class="row">
+    <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8">
+        <SfTextBox @bind-Value="_newFamily.StreetName" Placeholder="Street Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+        <ValidationMessage For="@(() => _newFamily.StreetName)"/>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+        <SfNumericTextBox CssClass="e-bigger" @bind-Value="@_newFamily.HouseNumber" Min=0 FloatLabelType="@FloatLabelType.Auto"></SfNumericTextBox>
+        <ValidationMessage For="@(() => _newFamily.HouseNumber)"/>
+    </div>
+</div>
+
+@* ADULTS *@
+<h3 class="mt-4">Adults:</h3>
+<hr/>
+@for (var i = 0; i < _newFamily.Adults.Count; i++)
+{
+    var index = i;
+    var adult = _newFamily.Adults[index];
+
+    <div class="card px-4 mb-4">
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="adult.FirstName" Placeholder="First Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => adult.FirstName)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="adult.LastName" Placeholder="Last Name" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => adult.LastName)"/>
+            </div>
         </div>
 
-        <div id="form-div" class="card p-4">
-            <h3>Address</h3>
-            <hr style="margin-bottom: 0"/>
-            <div class="row">
-                <div class="col-xs-8 col-sm-8 col-lg-8 col-md-8">
-                    <SfTextBox @bind-Value="_newFamily.StreetName" Placeholder="Street Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="adult.HairColor" Placeholder="Hair Color" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => adult.HairColor)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="adult.EyeColor" Placeholder="Eye Color" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => adult.EyeColor)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfComboBox TValue="string" TItem="SexFields" CssClass="e-bigger e-rtl" PopupHeight="230px" Placeholder="Sex" @bind-Value="adult.Sex" DataSource="@Sexes" FloatLabelType="@FloatLabelType.Auto">
+                    <ComboBoxEvents TValue="string" TItem="SexFields"></ComboBoxEvents>
+                    <ComboBoxFieldSettings Text="Text" Value="ID"></ComboBoxFieldSettings>
+                </SfComboBox>
+                <ValidationMessage For="@(() => adult.Sex)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="adult.JobTitle" Placeholder="Job Title" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => adult.JobTitle)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                <div class="control-label">
+                    Age (years)
                 </div>
-                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
-                    <SfNumericTextBox CssClass="e-bigger" Format="Nr: ###" @bind-Value="@_newFamily.HouseNumber" Min=0 FloatLabelType="@FloatLabelType.Auto"></SfNumericTextBox>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Age" Min=0 Max=125></SfNumericTextBox>
+                <ValidationMessage For="@(() => adult.Age)"/>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                <div class="control-label">
+                    Weight (kg)
+                </div>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Weight" Min=1 Max=250></SfNumericTextBox>
+                <ValidationMessage For="@(() => adult.Weight)"/>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                <div class="control-label">
+                    Height (cm)
+                </div>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Height" Min=30 Max=250></SfNumericTextBox>
+                <ValidationMessage For="@(() => adult.Height)"/>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end mb-2">
+            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Adults.RemoveAt(index))">Remove</SfButton>
+        </div>
+    </div>
+}
+
+<div class="d-flex justify-content-end mb-2">
+    <SfButton IconCss="e-btn-sb-icons e-add-icon" CssClass="e-small e-round" IsPrimary="true" type="button" @onclick="@(() => _newFamily.Adults.Add(new Adult()))"></SfButton>
+</div>
+
+@* CHILDREN  *@
+@if (_newFamily.Children.Count == 0 || _newFamily.Children.Count > 1)
+{
+    <h3 class="mt-2">Children:</h3>
+}
+else
+{
+    <h3 class="mt-2">Child:</h3>
+}
+<hr/>
+
+@for (var i = 0; i < _newFamily.Children.Count; i++)
+{
+    var index = i;
+    var child = _newFamily.Children[i];
+
+    <div class="card px-4 mb-4">
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="child.FirstName" Placeholder="First Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => child.FirstName)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="child.LastName" Placeholder="Last Name" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => child.LastName)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="child.HairColor" Placeholder="Hair Color" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => child.HairColor)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfTextBox @bind-Value="child.EyeColor" Placeholder="Eye Color" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                <ValidationMessage For="@(() => child.EyeColor)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <SfComboBox TValue="string" TItem="SexFields" CssClass="e-bigger e-rtl" PopupHeight="230px" Placeholder="Sex" @bind-Value="child.Sex" DataSource="@Sexes" FloatLabelType="@FloatLabelType.Auto">
+                    <ComboBoxEvents TValue="string" TItem="SexFields"></ComboBoxEvents>
+                    <ComboBoxFieldSettings Text="Text" Value="ID"></ComboBoxFieldSettings>
+                </SfComboBox>
+                <ValidationMessage For="@(() => child.Sex)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <div class="control-label">
+                    Age (years)
+                </div>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="child.Age" Min=0 Max=125></SfNumericTextBox>
+                <ValidationMessage For="@(() => child.Age)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <div class="control-label">
+                    Weight (kg)
+                </div>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="child.Weight" Min=1 Max=250></SfNumericTextBox>
+                <ValidationMessage For="@(() => child.Weight)"/>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <div class="control-label">
+                    Height (cm)
+                </div>
+                <SfNumericTextBox CssClass="e-bigger" @bind-Value="child.Height" Min=30 Max=250></SfNumericTextBox>
+                <ValidationMessage For="@(() => child.Height)"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <h4>Interests:</h4>
+                <hr/>
+
+                <SfListBox Value="@Value" DataSource="@Interests" TItem="Interest" TValue="string[]">
+                    <ListBoxSelectionSettings ShowCheckbox="true"></ListBoxSelectionSettings>
+                    <ListBoxFieldSettings Text="Type" Value="Type"></ListBoxFieldSettings>
+                </SfListBox>
+            </div>
+        </div>
+
+        <h3 class="mt-2">Chil Pets:</h3>
+        <hr/>
+
+
+        @for (var j = 0; j < child.Pets.Count; j++)
+        {
+            var petIndex = j;
+            var pet = child.Pets[petIndex];
+
+            <div class="card px-4 mb-4">
+
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                        <SfTextBox @bind-Value="pet.Name" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                        <ValidationMessage For="@(() => pet.Name)"/>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                        <SfTextBox @bind-Value="pet.Species" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                        <ValidationMessage For="@(() => pet.Species)"/>
+                    </div>
                 </div>
             </div>
-
-            @* ADULTS *@
-            <h3 class="mt-4">Adults:</h3>
-            <hr/>
-            @for (var i = 0; i < _newFamily.Adults.Count; i++)
-            {
-                var index = i;
-                var adult = _newFamily.Adults[index];
-                // var adult = ;
-
-                <div class="card px-4 mb-4">
-
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <SfTextBox @bind-Value="adult.FirstName" Placeholder="First Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <SfTextBox @bind-Value="adult.LastName" Placeholder="Last Name" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <SfTextBox @bind-Value="adult.HairColor" Placeholder="Hair Color" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                            @* <ValidationMessage For="@() => adult.HairColor"></ValidationMessage> *@
-                        </div>
-                        <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                            <SfTextBox @bind-Value="adult.EyeColor" Placeholder="Eye Color" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
-                            <div class="control-label">
-                                Age (years)
-                            </div>
-                            <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Age" Min=0 Max=125 ></SfNumericTextBox>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
-                            <div class="control-label">
-                                Weight (kg)
-                            </div>
-                            <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Weight" Min=1 Max=250 ></SfNumericTextBox>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
-                            <div class="control-label">
-                                Height (cm)
-                            </div>
-                            <SfNumericTextBox CssClass="e-bigger" @bind-Value="adult.Height" Min=30 Max=250></SfNumericTextBox>
-                        </div>
-                    </div>
-
-                    @* //TODO sex *@
-                    @* //TODO job *@
+        }
 
 
-                    <div class="d-flex justify-content-end mb-2">
-                        <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Adults.RemoveAt(index))">Remove</SfButton>
-                    </div>
-                </div>
-            }
-
-            <div class="d-flex justify-content-end mb-2">
-                <SfButton IconCss="e-btn-sb-icons e-add-icon" CssClass="e-small e-round" IsPrimary="true" type="button" @onclick="@(() => _newFamily.Adults.Add(new Adult()))"></SfButton>
-            </div>
-
-            @*             $1$ CHILDREN #1# *@
-            @* *@
-            @*             @if (_newFamily.Children.Count == 0 || _newFamily.Children.Count > 1) *@
-            @*             { *@
-            @*                 <h3 class="mt-2">Children:</h3> *@
-            @*             } *@
-            @*             else *@
-            @*             { *@
-            @*                 <h3 class="mt-2">Child:</h3> *@
-            @*             } *@
-            @* *@
-            @*             <hr/> *@
-            @*             @for (var i = 0; i < _newFamily.Children.Count; i++) *@
-            @*             { *@
-            @*                 var index = i; *@
-            @*                 var child = _newFamily.Children[i]; *@
-            @* *@
-            @*                 <div class="card px-4 mb-4"> *@
-            @* *@
-            @*                     <div class="row"> *@
-            @*                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6"> *@
-            @*                             <SfTextBox Placeholder="First Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox> *@
-            @*                         </div> *@
-            @*                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6"> *@
-            @*                             <SfTextBox Placeholder="Last Name" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox> *@
-            @*                         </div> *@
-            @*                     </div> *@
-            @* *@
-            @*                     <div class="row"> *@
-            @*                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6"> *@
-            @*                             <SfTextBox Placeholder="Hair Color" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox> *@
-            @*                         </div> *@
-            @*                         <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6"> *@
-            @*                             <SfTextBox Placeholder="Eye Color" CssClass="e-bigger e-rtl" FloatLabelType="@FloatLabelType.Auto"></SfTextBox> *@
-            @*                         </div> *@
-            @*                     </div> *@
-            @* *@
-            @*                     <div class="d-flex justify-content-end mb-2"> *@
-            @*                         <SfButton CssClass="e-danger" @onclick="@(() => _newFamily.Children.RemoveAt(index))">Remove</SfButton> *@
-            @*                     </div> *@
-            @*                 </div> *@
-            @*             } *@
-
-            @* <div class="d-flex justify-content-end mb-2"> *@
-            @*     <SfButton IconCss="e-btn-sb-icons e-add-icon" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => _newFamily.Children.Add(new Child()))"></SfButton> *@
-            @* </div> *@
+        <div class="d-flex justify-content-end mb-2">
+            <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => child.Pets.Add(new Pet()))"></SfButton>
         </div>
 
 
-        <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 my-2">
-            <SfButton IsPrimary="true" type="submit">Create Family</SfButton>
+        <div class="d-flex justify-content-end mb-2">
+            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Children.RemoveAt(index))">Remove</SfButton>
         </div>
+    </div>
+}
 
-    </EditForm>
+<div class="d-flex justify-content-end mb-2">
+    <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => _newFamily.Children.Add(new Child()))"></SfButton>
+</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 my-2">
+    <SfButton IsPrimary="true" type="submit">Create Family</SfButton>
+</div>
+
+</EditForm>
 </div>
 
 <style>
@@ -224,6 +317,38 @@
 
 @code {
     private Family _newFamily = new Family();
+
+    public class SexFields
+    {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+
+    private List<SexFields> Sexes = new List<SexFields>()
+    {
+        new SexFields() {ID = "F", Text = "Female"},
+        new SexFields() {ID = "M", Text = "Male"},
+        new SexFields() {ID = "Other", Text = "Other"},
+    };
+
+    private List<Interest> Interests = new List<Interest>()
+    {
+        new Interest() {Type = "Soccer"},
+        new Interest() {Type = "Drawing"},
+        new Interest() {Type = "Kite Flying"},
+        new Interest() {Type = "Roller Blades"},
+        new Interest() {Type = "Board Games"},
+        new Interest() {Type = "Ballet"},
+        new Interest() {Type = "Hockey"},
+        new Interest() {Type = "Gaming"},
+        new Interest() {Type = "Lego"},
+        new Interest() {Type = "Scout"},
+        new Interest() {Type = "Gymnastics"},
+        new Interest() {Type = "Harry Potter"},
+        new Interest() {Type = "Frozen"}
+    };
+
+    private string[] Value = new string[] {"Soccer"};
 
     protected async override Task OnInitializedAsync()
     {

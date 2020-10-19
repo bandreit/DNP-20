@@ -46,7 +46,6 @@
         <e p="Pages" t="Include">
           <e p="_Host.cshtml" t="Include" />
           <e p="AddFamily.razor" t="Include" />
-          <e p="Counter.razor" t="Include" />
           <e p="Error.cshtml" t="Include" />
           <e p="FamiliesList.razor" t="Include" />
           <e p="Index.razor" t="Include" />

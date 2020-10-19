@@ -63,63 +63,32 @@
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNPStructureTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNPStructureTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/bin/Debug/netcoreapp3.1/S1-Ex11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/bin/Debug/netcoreapp3.1/S1-Ex11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/bin/Debug/netcoreapp3.1/S1-Ex11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/bin/Debug/netcoreapp3.1/S1-Ex11.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/Impl/InMemoryUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/Impl/InMemoryUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/TodoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/TodoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/AddTodo.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/AddTodo.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/TodoList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/TodoList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/todos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/todos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Pages/AddTodo.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Pages/AddTodo.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Pages/TodoList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Pages/TodoList.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddTodo.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddTodo.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TodoList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TodoList.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/todos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/todos.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,12 +155,14 @@
     <setting file="file://$PROJECT_DIR$/Session1/S1-Ex5-Ex6/S1-Ex5-Ex6/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Pages/_Host.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3FD7A0AC-6888-4E62-A431-2A42CFFF88FC/24/DefaultHubDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680C9D25-769E-4213-9E86-7243774C7F1F/8f/6c7ad632/SfMultiSelect`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/52B82C28-59AD-42B4-A74A-A51A769C2E77/9/Enumerable.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/1E/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3FD7A0AC-6888-4E62-A431-2A42CFFF88FC/12/HubConnectionHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/1D/Delegate.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/CommunicationThreadHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session1/S1-Ex5-Ex6/S1-Ex5-Ex6/MathLib/Calculator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -206,9 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Pages/_Host.cshtml" />
-        <option value="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWithAuth/Startup.cs" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWithAuth/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/todos.json" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/IUserService.cs" />
@@ -239,7 +207,6 @@
         <option value="$PROJECT_DIR$/A1-DNP1Y/_Imports.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/_Host.cshtml" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/ChildInterest.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/AddTodo.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/!FamilyService.cs" />
@@ -252,11 +219,15 @@
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/families.json" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" />
       </list>
     </option>
   </component>
@@ -1081,6 +1052,7 @@
       <workItem from="1601997402335" duration="50709000" />
       <workItem from="1602268419228" duration="827000" />
       <workItem from="1602838862110" duration="18197000" />
+      <workItem from="1603027992541" duration="15732000" />
     </task>
     <servers />
   </component>
@@ -1117,86 +1089,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="290" key="GridCell.Tab.0.bottom" timestamp="1603026453066">
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1603093936142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603026453066" />
-    <state width="1493" height="290" key="GridCell.Tab.0.center" timestamp="1603026453066">
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
+    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1603093936142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603026453066" />
-    <state width="1493" height="290" key="GridCell.Tab.0.left" timestamp="1603026453066">
+    <state width="1493" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
+    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1603093936142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603026453066" />
-    <state width="1493" height="290" key="GridCell.Tab.0.right" timestamp="1603026453066">
+    <state width="1493" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
+    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1603093936142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="290" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603026453066" />
-    <state width="1493" height="221" key="GridCell.Tab.1.bottom" timestamp="1603024479405">
+    <state width="1493" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
+    <state width="1493" height="221" key="GridCell.Tab.1.bottom" timestamp="1603046038789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.1.center" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
+    <state width="1493" height="221" key="GridCell.Tab.1.center" timestamp="1603046038789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.1.left" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
+    <state width="1493" height="221" key="GridCell.Tab.1.left" timestamp="1603046038789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.1.right" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
+    <state width="1493" height="221" key="GridCell.Tab.1.right" timestamp="1603046038789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.2.bottom" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
+    <state width="1493" height="221" key="GridCell.Tab.2.bottom" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.2.center" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.2.center" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.2.left" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.2.left" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.2.right" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.2.right" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.3.bottom" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.3.bottom" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.3.center" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.3.center" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.3.left" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.3.left" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.3.right" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.3.right" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.4.bottom" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.4.bottom" timestamp="1603046038791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.4.center" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
+    <state width="1493" height="221" key="GridCell.Tab.4.center" timestamp="1603046038791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.4.left" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
+    <state width="1493" height="221" key="GridCell.Tab.4.left" timestamp="1603046038790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
-    <state width="1493" height="221" key="GridCell.Tab.4.right" timestamp="1603024479405">
+    <state width="1493" height="221" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
+    <state width="1493" height="221" key="GridCell.Tab.4.right" timestamp="1603046038791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603024479405" />
+    <state width="1493" height="221" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
     <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1602084943695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1233,10 +1205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1601590517887" />
-    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603024014276">
+    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603094209202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603024014276" />
+    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603094209202" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1602926561909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1247,23 +1219,6 @@
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602865675780" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs</url>
-          <line>41</line>
-          <properties documentPath="C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\Models\Person.cs" initialLine="41">
-            <startOffsets>
-              <option value="1476" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1540" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Frame#Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync" memberName="this" />

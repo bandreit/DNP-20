@@ -8,14 +8,14 @@ namespace Models
     public class Person
     {
         public int Id { get; set; }
-        [Required] public string FirstName { get; set; }
-        [NotNull] public string LastName { get; set; }
-        [ValidHairColor] public string HairColor { get; set; } = "";
-        [ValidEyeColor] public string EyeColor { get; set; } = "";
-        [NotNull, Range(0, 125)] public int Age { get; set; }
-        [NotNull, Range(1, 250)] public float Weight { get; set; }
-        [NotNull, Range(30, 250)] public int Height { get; set; }
-        [NotNull] public string Sex { get; set; }
+        [Required (ErrorMessage = "First Name Field is Required")] public string FirstName { get; set; }
+        [Required (ErrorMessage = "Last Name Field is Required")] public string LastName { get; set; }
+        [Required (ErrorMessage = "Hair Color Field is Required"), ValidHairColor] public string HairColor { get; set; } = "";
+        [Required (ErrorMessage = "Eye Color Field is Required"), ValidEyeColor] public string EyeColor { get; set; } = "";
+        [Required, Range(0, 125)] public int Age { get; set; }
+        [Required, Range(1, 250)] public float Weight { get; set; }
+        [Required, Range(30, 250)] public int Height { get; set; }
+        [Required (ErrorMessage = "Sex Field is Required")] public string Sex { get; set; }
 
         public void Update(Person toUpdate)
         {
