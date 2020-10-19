@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Models;
+using Syncfusion.Blazor.Data;
 
 
 namespace A1_DNP1Y.Persistence
@@ -31,9 +32,43 @@ namespace A1_DNP1Y.Persistence
 
         public void AddFamily(Family family)
         {
-            // int? max = Families.Max(family => family.Id);
-            // family.Id = (++max);
-            // Families.Add(family);
+            int? maxFamilyId = _families.Max(family => family.Id);
+            family.Id = (++maxFamilyId);
+
+            List<Adult> adults = new List<Adult>();
+            foreach (var fam in _families)
+            {
+                adults.AddRange(fam.Adults);
+            }
+            int maxAdultId = adults.Max(adult => adult.Id);
+            foreach (var adult in family.Adults)
+            {
+                adult.Id = (++maxAdultId);
+            }
+            
+            List<Child> children = new List<Child>();
+            foreach (var fam in _families)
+            {
+                children.AddRange(fam.Children);
+            }
+            int maxChildId = children.Max(children => children.Id);
+            foreach (var child in family.Children)
+            {
+                child.Id = (++maxChildId);
+            }
+            
+            List<Pet> pets = new List<Pet>();
+            foreach (var fam in _families)
+            {
+                pets.AddRange(fam.Pets);
+            }
+            int maxPetId = pets.Max(pet => pet.Id);
+            foreach (var pet in family.Pets)
+            {
+                pet.Id = (++maxPetId);
+            }
+            
+            
             _families.Add(family);
             SaveChanges();
         }

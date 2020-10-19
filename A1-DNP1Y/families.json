@@ -1,6 +1,6 @@
 [
   {
-    "Id": null,
+    "Id": 0,
     "StreetName": "Vienna Street",
     "HouseNumber": 1,
     "Adults": [
@@ -28,10 +28,12 @@
         "Height": 157,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 1,
     "StreetName": "Pine Street",
     "HouseNumber": 1,
     "Adults": [
@@ -47,10 +49,12 @@
         "Height": 134,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 2,
     "StreetName": "Theater Street",
     "HouseNumber": 1,
     "Adults": [
@@ -78,10 +82,12 @@
         "Height": 171,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 3,
     "StreetName": "California Street",
     "HouseNumber": 1,
     "Adults": [
@@ -109,10 +115,12 @@
         "Height": 146,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 4,
     "StreetName": "Princess Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -128,10 +136,12 @@
         "Height": 168,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 5,
     "StreetName": "Lucy Street",
     "HouseNumber": 1,
     "Adults": [
@@ -159,10 +169,12 @@
         "Height": 158,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 6,
     "StreetName": "California Street",
     "HouseNumber": 2,
     "Adults": [
@@ -190,10 +202,12 @@
         "Height": 180,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 7,
     "StreetName": "Forest Street",
     "HouseNumber": 1,
     "Adults": [
@@ -209,10 +223,12 @@
         "Height": 170,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 8,
     "StreetName": "Francis IIStreet",
     "HouseNumber": 1,
     "Adults": [
@@ -240,10 +256,12 @@
         "Height": 152,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 9,
     "StreetName": "Southern Millstreet Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -259,10 +277,12 @@
         "Height": 169,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 10,
     "StreetName": "China Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -290,10 +310,12 @@
         "Height": 169,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 11,
     "StreetName": "Northern Abby Avenueand",
     "HouseNumber": 1,
     "Adults": [
@@ -321,10 +343,12 @@
         "Height": 159,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 12,
     "StreetName": "Eastern Cestaand",
     "HouseNumber": 1,
     "Adults": [
@@ -340,10 +364,12 @@
         "Height": 175,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 13,
     "StreetName": "Rail Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -371,10 +397,12 @@
         "Height": 173,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 14,
     "StreetName": "Pine Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -402,10 +430,12 @@
         "Height": 171,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 15,
     "StreetName": "Poets Street",
     "HouseNumber": 1,
     "Adults": [
@@ -433,10 +463,12 @@
         "Height": 169,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 16,
     "StreetName": "Constitution Street",
     "HouseNumber": 1,
     "Adults": [
@@ -464,10 +496,12 @@
         "Height": 173,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 17,
     "StreetName": "New Orleans Street",
     "HouseNumber": 1,
     "Adults": [
@@ -495,10 +529,12 @@
         "Height": 164,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 18,
     "StreetName": "Pine Avenue",
     "HouseNumber": 2,
     "Adults": [
@@ -526,10 +562,12 @@
         "Height": 169,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 19,
     "StreetName": "Southern Abby Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -545,10 +583,12 @@
         "Height": 169,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 20,
     "StreetName": "Pine Street",
     "HouseNumber": 2,
     "Adults": [
@@ -576,10 +616,12 @@
         "Height": 158,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 21,
     "StreetName": "Long Road Avenue",
     "HouseNumber": 1,
     "Adults": [
@@ -595,10 +637,12 @@
         "Height": 156,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 22,
     "StreetName": "New Street",
     "HouseNumber": 1,
     "Adults": [
@@ -626,10 +670,12 @@
         "Height": 176,
         "Sex": "M"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 23,
     "StreetName": "Newport Street",
     "HouseNumber": 1,
     "Adults": [
@@ -657,10 +703,12 @@
         "Height": 150,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
   },
   {
-    "Id": null,
+    "Id": 24,
     "StreetName": "Wallstreet",
     "HouseNumber": 1,
     "Adults": [
@@ -688,6 +736,41 @@
         "Height": 142,
         "Sex": "F"
       }
-    ]
+    ],
+    "Children": [],
+    "Pets": null
+  },
+  {
+    "Id": 25,
+    "StreetName": "m",
+    "HouseNumber": 0,
+    "Adults": [
+      {
+        "JobTitle": "gea",
+        "Id": 43,
+        "FirstName": "43",
+        "LastName": "43",
+        "HairColor": "red",
+        "EyeColor": "brown",
+        "Age": 0,
+        "Weight": 1,
+        "Height": 30,
+        "Sex": "M"
+      },
+      {
+        "JobTitle": "gea",
+        "Id": 44,
+        "FirstName": "44",
+        "LastName": "44",
+        "HairColor": "red",
+        "EyeColor": "brown",
+        "Age": 0,
+        "Weight": 1,
+        "Height": 30,
+        "Sex": "M"
+      }
+    ],
+    "Children": [],
+    "Pets": []
   }
 ]

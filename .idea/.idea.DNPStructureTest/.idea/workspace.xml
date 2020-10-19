@@ -61,34 +61,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/families.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorComponent.input.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.output.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/Counter.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +100,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/3f/eba2285b/CascadingValue`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/30/RuntimeType.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FDC583F5-8F7C-4071-B0A0-19364BB1839B/1B/InputTextArea.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/3A/ComponentState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/85/ae2a01b1/RenderTreeBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Pages/VIA.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/5/CascadingValue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Pages/SecurityLevel.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680C9D25-769E-4213-9E86-7243774C7F1F/62/919988b0/SfButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/41/RenderTreeBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Shared/LoginComponent.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44CE4390-32C1-4275-9195-30ACFCE733A2/19/RangeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Authentication/CustomAuthenticationStateProvider.cs" root0="FORCE_HIGHLIGHTING" />
@@ -161,18 +160,24 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3FD7A0AC-6888-4E62-A431-2A42CFFF88FC/12/HubConnectionHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/1D/Delegate.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/13D/ThreadPool.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/CommunicationThreadHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session1/S1-Ex5-Ex6/S1-Ex5-Ex6/MathLib/Calculator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/13E/ThreadPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680C9D25-769E-4213-9E86-7243774C7F1F/97/89fddf08/SfListBox`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/67B31D0F-F69C-4253-AD32-759A2C663824/0/KnownColor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/85/203bbfe2/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3215AAF2-92A0-429D-878D-BFDA1255BFD6/5/AuthorizeRouteView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/6D/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/10/EventCallbackOfT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/f4/b5b41ba2/ComponentState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/51/Activator.RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -217,16 +222,16 @@
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/families.json" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/families.json" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" />
       </list>
     </option>
@@ -1052,7 +1057,7 @@
       <workItem from="1601997402335" duration="50709000" />
       <workItem from="1602268419228" duration="827000" />
       <workItem from="1602838862110" duration="18197000" />
-      <workItem from="1603027992541" duration="15732000" />
+      <workItem from="1603027992541" duration="40915000" />
     </task>
     <servers />
   </component>
@@ -1089,86 +1094,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1603093936142">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1603146992602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
-    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1603093936142">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1603146992602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
-    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1603093936142">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1603146992602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
-    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1603093936142">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1603146992602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603093936142" />
-    <state width="1493" height="221" key="GridCell.Tab.1.bottom" timestamp="1603046038789">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
-    <state width="1493" height="221" key="GridCell.Tab.1.center" timestamp="1603046038789">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1603144424707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
-    <state width="1493" height="221" key="GridCell.Tab.1.left" timestamp="1603046038789">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1603144424707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
-    <state width="1493" height="221" key="GridCell.Tab.1.right" timestamp="1603046038789">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1603144424707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038789" />
-    <state width="1493" height="221" key="GridCell.Tab.2.bottom" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.2.center" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.2.left" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.2.right" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.3.bottom" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.3.center" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.3.center" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.3.left" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.3.left" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.3.right" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.3.right" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.4.bottom" timestamp="1603046038791">
+    <state width="1493" height="266" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
-    <state width="1493" height="221" key="GridCell.Tab.4.center" timestamp="1603046038791">
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.4.center" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
-    <state width="1493" height="221" key="GridCell.Tab.4.left" timestamp="1603046038790">
+    <state width="1493" height="266" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.4.left" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603046038790" />
-    <state width="1493" height="221" key="GridCell.Tab.4.right" timestamp="1603046038791">
+    <state width="1493" height="266" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.4.right" timestamp="1603144424708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603046038791" />
+    <state width="1493" height="266" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
     <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1602084943695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1193,10 +1198,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599770464493" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600947375551">
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1603106717864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600947375551" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1603106717864" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603145787246">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603145787246" />
     <state x="274" y="128" width="1507" height="811" key="dock-window-1" timestamp="1602142224095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1205,24 +1214,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1601590517887" />
-    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603094209202">
+    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603145756188">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603094209202" />
+    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603145756188" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1602926561909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602926561909" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602865675780">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603131730718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602865675780" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603131730718" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Frame#Microsoft.AspNetCore.Components.RenderTree.Renderer.DispatchEventAsync" memberName="this" />
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.List`1" memberName="Count" />
+        <PinnedItemInfo parentTag="Frame#A1_DNP1Y.Pages.AddFamily.AddNewFamily" memberName="huinea" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="Value" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -104,7 +104,7 @@
         </div>
 
         <div class="d-flex justify-content-end mb-2">
-            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Adults.RemoveAt(index))">Remove</SfButton>
+            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Adults.RemoveAt(index))">Remove Adult</SfButton>
         </div>
     </div>
 }
@@ -128,6 +128,10 @@ else
 {
     var index = i;
     var child = _newFamily.Children[i];
+    ListOfChildInterests.Add(new SfListBox<string[], Interest>());
+    // Values.Add(new string[] {"Soccer"});
+    Values.Add(new FormResponse());
+    SfListBox<string[], Interest> localListBox = ListOfChildInterests[index];
 
     <div class="card px-4 mb-4">
 
@@ -188,49 +192,59 @@ else
         </div>
 
         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
+            <div style="width: 100%">
                 <h4>Interests:</h4>
                 <hr/>
 
-                <SfListBox Value="@Value" DataSource="@Interests" TItem="Interest" TValue="string[]">
+                <SfListBox CssClass="interest-list" DataSource="@Interests" TItem="Interest" TValue="string[]" @ref=ListOfChildInterests[index] @bind-Value=@Values[index].Value>
                     <ListBoxSelectionSettings ShowCheckbox="true"></ListBoxSelectionSettings>
                     <ListBoxFieldSettings Text="Type" Value="Type"></ListBoxFieldSettings>
                 </SfListBox>
             </div>
         </div>
 
-        <h3 class="mt-2">Chil Pets:</h3>
+        <h3 class="mt-2">Child Pets:</h3>
         <hr/>
 
+        <div class=@(child.Pets.Count > 0 ? "card px-4 mb-4" : "")}>
+            @for (var j = 0; j < child.Pets.Count; j++)
+            {
+                var petIndex = j;
+                var pet = child.Pets[petIndex];
 
-        @for (var j = 0; j < child.Pets.Count; j++)
-        {
-            var petIndex = j;
-            var pet = child.Pets[petIndex];
-
-            <div class="card px-4 mb-4">
-
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                        <SfTextBox @bind-Value="pet.Name" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                        <ValidationMessage For="@(() => pet.Name)"/>
+                <div class="card px-4 my-4">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                            <SfTextBox @bind-Value="pet.Name" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                            <ValidationMessage For="@(() => pet.Name)"/>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                            <SfTextBox @bind-Value="pet.Species" Placeholder="Species" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                            <ValidationMessage For="@(() => pet.Species)"/>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                            <div class="control-label">
+                                Age (years)
+                            </div>
+                            <SfNumericTextBox CssClass="e-bigger" @bind-Value="pet.Age" Min=0 Max=125></SfNumericTextBox>
+                            <ValidationMessage For="@(() => pet.Age)"/>
+                        </div>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                        <SfTextBox @bind-Value="pet.Species" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
-                        <ValidationMessage For="@(() => pet.Species)"/>
+                    <div class="d-flex justify-content-end mb-2">
+                        <SfButton CssClass="e-danger" type="button" @onclick="@(() => child.Pets.RemoveAt(petIndex))">Remove Child Pet</SfButton>
                     </div>
                 </div>
+            }
+
+
+            <div class="d-flex justify-content-end mb-2">
+                <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => child.Pets.Add(new Pet()))"></SfButton>
             </div>
-        }
-
-
-        <div class="d-flex justify-content-end mb-2">
-            <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => child.Pets.Add(new Pet()))"></SfButton>
         </div>
 
 
-        <div class="d-flex justify-content-end mb-2">
-            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Children.RemoveAt(index))">Remove</SfButton>
+        <div class="d-flex justify-content-end mb-2 mt-2">
+            <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Children.RemoveAt(index))">Remove Child</SfButton>
         </div>
     </div>
 }
@@ -238,6 +252,47 @@ else
 <div class="d-flex justify-content-end mb-2">
     <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => _newFamily.Children.Add(new Child()))"></SfButton>
 </div>
+
+
+<h3 class="mt-2">Family Pets:</h3>
+<hr/>
+
+<div class=@(_newFamily.Pets.Count > 0 ? "card px-4 mb-4" : "")}>
+    @for (var j = 0; j < _newFamily.Pets.Count; j++)
+    {
+        var petIndex = j;
+        var pet = _newFamily.Pets[petIndex];
+
+        <div class="card px-4 my-4">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                    <SfTextBox @bind-Value="pet.Name" Placeholder="Name" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                    <ValidationMessage For="@(() => pet.Name)"/>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                    <SfTextBox @bind-Value="pet.Species" Placeholder="Species" CssClass="e-bigger" FloatLabelType="@FloatLabelType.Auto"></SfTextBox>
+                    <ValidationMessage For="@(() => pet.Species)"/>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                    <div class="control-label">
+                        Age (years)
+                    </div>
+                    <SfNumericTextBox CssClass="e-bigger" @bind-Value="pet.Age" Min=0 Max=125></SfNumericTextBox>
+                    <ValidationMessage For="@(() => pet.Age)"/>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end mb-2">
+                <SfButton CssClass="e-danger" type="button" @onclick="@(() => _newFamily.Pets.RemoveAt(petIndex))">Remove Family Pet</SfButton>
+            </div>
+        </div>
+    }
+
+
+    <div class="d-flex justify-content-end mb-2">
+        <SfButton IconCss="e-btn-sb-icons e-add-icon" type="button" CssClass="e-small e-round" IsPrimary="true" @onclick="@(() => _newFamily.Pets.Add(new Pet()))"></SfButton>
+    </div>
+</div>
+
 </div>
 
 
@@ -258,6 +313,13 @@ else
 
 .content-wrapper div.row {
     padding: 8px 0px;
+}
+
+.interest-list > ul{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -348,7 +410,15 @@ else
         new Interest() {Type = "Frozen"}
     };
 
-    private string[] Value = new string[] {"Soccer"};
+    // private string[] Value = new string[] {"Soccer"};
+    public class FormResponse
+    {
+        public string[] Value { get; set; }
+    }
+
+    List<FormResponse> Values = new List<FormResponse>();
+    List<SfListBox<string[], Interest>> ListOfChildInterests = new List<SfListBox<string[], Interest>>();
+
 
     protected async override Task OnInitializedAsync()
     {
@@ -360,6 +430,18 @@ else
 
     private void AddNewFamily()
     {
+        for (int i = 0; i < _newFamily.Children.Count; i++)
+        {
+            var localInterests = ListOfChildInterests[i].GetDataByValue(Values[i].Value);
+            var child = _newFamily.Children[i];
+            if (localInterests.Count != 0 && localInterests != null)
+            {
+                foreach (Interest li in localInterests)
+                {
+                    _newFamily.Children[i].ChildInterests.Add(new ChildInterest() {ChildId = child.Id, Child = child, InterestId = li.Type, Interest = new Interest() {Type = li.Type}});
+                }
+            }
+        }
         FamilyService.AddFamily(_newFamily);
         NavigationManager.NavigateTo("/families");
     }

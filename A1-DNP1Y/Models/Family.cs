@@ -16,7 +16,7 @@ namespace Models
         {
             Adults = new List<Adult>();
             Children = new List<Child>();
-            // Pets = new List<Pet>();
+            Pets = new List<Pet>();
         }
     }
 }

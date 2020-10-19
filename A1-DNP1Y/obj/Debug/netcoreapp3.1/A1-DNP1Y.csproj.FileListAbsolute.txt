@@ -38,7 +38,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\A
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FamilyCard.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddFamily.razor.g.cs
-C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FamiliesList.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -52,7 +51,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\A
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Components\FamilyCard.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\AddFamily.razor.g.cs
-C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\FamiliesList.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
