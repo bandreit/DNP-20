@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using A1_DNP1Y.Models;
 using Models;
 using Syncfusion.Blazor.Data;
 
@@ -12,7 +13,7 @@ namespace A1_DNP1Y.Persistence
     {
         private FileContext _fileContext;
         private IList<Family> _families;
-        
+
         public FamilyService(FileContext fileContext)
         {
             _fileContext = fileContext;
@@ -23,7 +24,7 @@ namespace A1_DNP1Y.Persistence
         {
             _fileContext.SaveChanges();
         }
-    
+
         public IList<Family> GetFamilies()
         {
             List<Family> tmp = new List<Family>(_families);
@@ -40,35 +41,62 @@ namespace A1_DNP1Y.Persistence
             {
                 adults.AddRange(fam.Adults);
             }
+
             int maxAdultId = adults.Max(adult => adult.Id);
             foreach (var adult in family.Adults)
             {
                 adult.Id = (++maxAdultId);
             }
-            
+
             List<Child> children = new List<Child>();
             foreach (var fam in _families)
             {
                 children.AddRange(fam.Children);
             }
-            int maxChildId = children.Max(children => children.Id);
+
+            int maxChildId = 0;
+            if (children.Count != 0)
+            {
+                maxChildId = children.Max(child => child.Id);
+            }
+
             foreach (var child in family.Children)
             {
                 child.Id = (++maxChildId);
             }
-            
+
             List<Pet> pets = new List<Pet>();
             foreach (var fam in _families)
             {
-                pets.AddRange(fam.Pets);
+                if (!(fam.Pets is null))
+                {
+                    pets.AddRange(fam.Pets);
+                }
             }
-            int maxPetId = pets.Max(pet => pet.Id);
+
+            foreach (var fam in _families)
+            {
+                foreach (var child in fam.Children)
+                {
+                    if (!(child.Pets is null))
+                    {
+                        pets.AddRange(fam.Pets);
+                    }
+                }
+            }
+
+            int maxPetId = 0;
+            if (children.Count != 0)
+            {
+                maxPetId = pets.Max(pet => pet.Id);
+            }
+
             foreach (var pet in family.Pets)
             {
                 pet.Id = (++maxPetId);
             }
-            
-            
+
+
             _families.Add(family);
             SaveChanges();
         }

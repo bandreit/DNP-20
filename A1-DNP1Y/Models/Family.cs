@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Models;
 
-namespace Models
+namespace A1_DNP1Y.Models
 {
     public class Family
     {

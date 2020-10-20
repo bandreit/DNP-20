@@ -3,7 +3,9 @@
 @using global::Models
 @inject IFamilyService FamilyService
 @using A1_DNP1Y.Components
+@using A1_DNP1Y.Models
 @using A1_DNP1Y.Persistence
+@using Syncfusion.Blazor.DropDowns
 
 @if (_familiesToShow == null)
 {
@@ -14,9 +16,19 @@
 else
 {
     <div class="row">
+        <div class="col-md-4">
+            <SfAutoComplete TValue="string" TItem="FamilyFields" Placeholder="Search By Family" DataSource="@FamilyNames"  @bind-Value="@FamilyToSerch">
+                <AutoCompleteFieldSettings Value="Text"></AutoCompleteFieldSettings>
+            </SfAutoComplete>
+        </div>
+        <div class="col-md-2 offset-1">
+            <button class="e-success" type="button" @onclick="@FilterByFamilyName">Filter</button>
+        </div>
+    </div>
+    <div class="row">
         @foreach (var family in _familiesToShow)
         {
-            <FamilyCard StreetName=@family.StreetName HouseNumber=@family.HouseNumber>
+            <FamilyCard StreetName=@family.StreetName HouseNumber=@family.HouseNumber Family=@family>
             </FamilyCard>
         }
     </div>
@@ -25,11 +37,54 @@ else
 @code {
     private IList<Family> _families;
     private IList<Family> _familiesToShow;
+    private SfAutoComplete<string[], FamilyFields> _sfAutoComplete;
+    private string FamilyToSerch { get; set; }
 
+    public class FamilyFields
+    {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+
+    public List<FamilyFields> FamilyNames = new List<FamilyFields>();
+
+    private void FilterByFamilyName() {
+        // if (args.Key == "Enter") {
+            Console.WriteLine("enter was pressed");
+            Console.Out.WriteLine(FamilyToSerch);
+        // }
+    }
+    
     protected override async Task OnInitializedAsync()
     {
         _families = FamilyService.GetFamilies();
         _familiesToShow = _families;
+
+        foreach (var family in _familiesToShow)
+        {
+            string LastNames = "";
+            List<Adult> adultsInFamily = family.Adults;
+            if (adultsInFamily.Count > 1)
+            {
+                if (adultsInFamily.Any(adult => adult.LastName != adultsInFamily[0].LastName))
+                {
+                    adultsInFamily.ForEach(adult => LastNames += adult.LastName + "-");
+                    LastNames = LastNames.Remove(LastNames.Length - 1);
+                    ;
+                }
+                else
+                {
+                    LastNames = adultsInFamily[0].LastName;
+                }
+            }
+            else if (adultsInFamily.Count == 1)
+            {
+                LastNames = adultsInFamily[0].LastName;
+            }
+            LastNames += " Family";
+
+            FamilyNames.Add(new FamilyFields() {ID = family.Id.ToString(), Text = LastNames});
+        }
 
     // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
     // var user = authState.User;

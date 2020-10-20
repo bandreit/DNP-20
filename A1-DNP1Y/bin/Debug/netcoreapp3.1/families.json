@@ -742,27 +742,30 @@
   },
   {
     "Id": 25,
-    "StreetName": "m",
+    "StreetName": "brown",
     "HouseNumber": 0,
-    "Adults": [
+    "Adults": [],
+    "Children": [
       {
-        "JobTitle": "gea",
-        "Id": 43,
-        "FirstName": "43",
-        "LastName": "43",
-        "HairColor": "red",
-        "EyeColor": "brown",
-        "Age": 0,
-        "Weight": 1,
-        "Height": 30,
-        "Sex": "M"
-      },
-      {
-        "JobTitle": "gea",
-        "Id": 44,
-        "FirstName": "44",
-        "LastName": "44",
-        "HairColor": "red",
+        "ChildInterests": [],
+        "Pets": [
+          {
+            "Id": 0,
+            "Species": "dog",
+            "Name": "brown",
+            "Age": 0
+          },
+          {
+            "Id": 0,
+            "Species": "frog",
+            "Name": "gae",
+            "Age": 0
+          }
+        ],
+        "Id": 1,
+        "FirstName": "brown",
+        "LastName": "brown",
+        "HairColor": "brown",
         "EyeColor": "brown",
         "Age": 0,
         "Weight": 1,
@@ -770,6 +773,20 @@
         "Sex": "M"
       }
     ],
+    "Pets": [
+      {
+        "Id": 1,
+        "Species": "dog",
+        "Name": "hz",
+        "Age": 0
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "StreetName": "fea",
+    "HouseNumber": 0,
+    "Adults": [],
     "Children": [],
     "Pets": []
   }

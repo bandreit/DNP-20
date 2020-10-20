@@ -62,28 +62,28 @@
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/FamiliesList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Pages/FamiliesList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/families.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorComponent.input.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.output.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Components/FamilyCard.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Components/FamilyCard.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/Counter.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/FamiliesList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/FamiliesList.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/FamilyCard.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/FamilyCard.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamiliesList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamiliesList.razor.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,11 +124,15 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F4DB05F7-8287-4E02-9103-F7A704CCF276/31/CircuitHost.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/3E/RendererSynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FEE5F9A4-0AEB-475E-A19B-E98EAF9AC0A9/3F/RendererSynchronizationContextDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76E748CB-F96A-445E-BE5C-0F047035EFFC/8/KeyboardEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680C9D25-769E-4213-9E86-7243774C7F1F/a3/32fbf95e/SfInputBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/D/CallSiteRuntimeResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/F/CallSiteVisitor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/680C9D25-769E-4213-9E86-7243774C7F1F/e1/819027c8/SfComboBox`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/13/DynamicServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/335/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/38/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/1D/ServiceProviderEngine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/346AC160-1803-412E-B0A1-21046C4AC027/1E/ServiceProviderEngineScope.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1CDB4470-D495-46A9-9088-CF7B159421C1/25/TCPClient.cs" root0="SKIP_HIGHLIGHTING" />
@@ -170,6 +174,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/67B31D0F-F69C-4253-AD32-759A2C663824/0/KnownColor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/85/203bbfe2/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/FamiliesList.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3215AAF2-92A0-429D-878D-BFDA1255BFD6/5/AuthorizeRouteView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/6D/DateTimeOffset.cs" root0="SKIP_HIGHLIGHTING" />
@@ -182,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWithAuth/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/todos.json" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/IUserService.cs" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/_Host.cshtml" />
@@ -217,22 +221,23 @@
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/!FamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/FamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Data/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/FamiliesList.razor" />
         <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/TodoService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/families.json" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" />
+        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/FamiliesList.razor" />
       </list>
     </option>
   </component>
@@ -1057,7 +1062,7 @@
       <workItem from="1601997402335" duration="50709000" />
       <workItem from="1602268419228" duration="827000" />
       <workItem from="1602838862110" duration="18197000" />
-      <workItem from="1603027992541" duration="40915000" />
+      <workItem from="1603027992541" duration="57320000" />
     </task>
     <servers />
   </component>
@@ -1094,86 +1099,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1603146992602">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1603213317510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1603146992602">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603213317510" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1603213317510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1603146992602">
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603213317510" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1603213317510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1603146992602">
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603213317510" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1603213317510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603146992602" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1603144424708">
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603213317510" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1603144424707">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1603144424707">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1603144424707">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424707" />
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.3.bottom" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.3.center" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.3.center" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.3.left" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.3.left" timestamp="1603189659633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.3.right" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603189659633" />
+    <state width="1493" height="266" key="GridCell.Tab.3.right" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.4.bottom" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.4.center" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.4.center" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.4.left" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.4.left" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
-    <state width="1493" height="266" key="GridCell.Tab.4.right" timestamp="1603144424708">
+    <state width="1493" height="266" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
+    <state width="1493" height="266" key="GridCell.Tab.4.right" timestamp="1603189659634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603144424708" />
+    <state width="1493" height="266" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1603189659634" />
     <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1602084943695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1214,18 +1219,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1601590517887" />
-    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603145756188">
+    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1603213104614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603145756188" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1602926561909">
+    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603213104614" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1603181703225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602926561909" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603131730718">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603181703225" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603149543195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603131730718" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603149543195" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
