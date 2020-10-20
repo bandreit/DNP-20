@@ -13,11 +13,13 @@ namespace A1_DNP1Y.Persistence
     {
         private FileContext _fileContext;
         private IList<Family> _families;
+        private IList<Adult> _adults;
 
         public FamilyService(FileContext fileContext)
         {
             _fileContext = fileContext;
             _families = _fileContext.Families;
+            _adults = _fileContext.Adults;
         }
 
         public void SaveChanges()
@@ -28,6 +30,12 @@ namespace A1_DNP1Y.Persistence
         public IList<Family> GetFamilies()
         {
             List<Family> tmp = new List<Family>(_families);
+            return tmp;
+        }
+        
+        public IList<Adult> GetAdults()
+        {
+            List<Adult> tmp = new List<Adult>(_adults);
             return tmp;
         }
 
@@ -98,6 +106,14 @@ namespace A1_DNP1Y.Persistence
 
 
             _families.Add(family);
+            SaveChanges();
+        }
+
+        public void AddAdult(Adult adult)
+        {
+            int maxFamilyId = _adults.Max(adult => adult.Id);
+            adult.Id = (++maxFamilyId);
+            _adults.Add(adult);
             SaveChanges();
         }
 

@@ -11,12 +11,15 @@ namespace A1_DNP1Y.Persistence
     public class FileContext
     {
         public IList<Family> Families { get; private set; }
+        public IList<Adult> Adults { get; private set; }
 
         private readonly string familiesFile = "families.json";
+        private readonly string adultsFile = "adults.json";
 
         public FileContext()
         {
             Families = File.Exists(familiesFile) ? ReadData<Family>(familiesFile) : new List<Family>();
+            Adults = File.Exists(adultsFile) ? ReadData<Adult>(adultsFile) : new List<Adult>();
         }
 
         private IList<T> ReadData<T>(string s)
@@ -37,6 +40,15 @@ namespace A1_DNP1Y.Persistence
             using (StreamWriter outputFile = new StreamWriter(familiesFile, false))
             {
                 outputFile.Write(jsonFamilies);
+            }
+            string adultFamilies = JsonSerializer.Serialize(Adults, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+
+            using (StreamWriter outputFile = new StreamWriter(adultsFile, false))
+            {
+                outputFile.Write(adultFamilies);
             }
         }
     }

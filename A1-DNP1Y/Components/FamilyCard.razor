@@ -6,7 +6,7 @@
 @* <div class="e-card-layout"> *@
 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 my-2">
     <SfCard>
-        <CardHeader Title="@LastNames" SubTitle="@($"{Family.Adults.Count + Family.Children.Count} {(Family.Adults.Count + Family.Children.Count > 1 ? "people" : Family.Adults.Count + Family.Children.Count == 1 ? "person" : "people")}")"/>
+        <CardHeader Title="@Family.GetLastNames()" SubTitle="@($"{Family.Adults.Count + Family.Children.Count} {(Family.Adults.Count + Family.Children.Count > 1 ? "people" : Family.Adults.Count + Family.Children.Count == 1 ? "person" : "people")}")"/>
         <CardContent>
             <table style="margin-bottom: 10px;">
                 <tr>
@@ -167,13 +167,6 @@
 @* </div> *@
 
 @code {
-
-    [Parameter]
-    public string StreetName { get; set; }
-
-    [Parameter]
-    public int HouseNumber { get; set; }
-
     [Parameter]
     public Family Family { get; set; }
 
@@ -181,29 +174,23 @@
 
     protected async override Task OnInitializedAsync()
     {
-        List<Adult> adultsInFamily = Family.Adults;
-        if (adultsInFamily.Count > 1)
-        {
-            if (adultsInFamily.Any(adult => adult.LastName != adultsInFamily[0].LastName))
-            {
-                adultsInFamily.ForEach(adult => LastNames += adult.LastName + "-");
-                LastNames = LastNames.Remove(LastNames.Length - 1);;
-            }
-            else
-            {
-                LastNames = adultsInFamily[0].LastName;
-            }
-        }
-        else if (adultsInFamily.Count == 1)
-        {
-            LastNames = adultsInFamily[0].LastName;
-        }
-        LastNames += " Family";
+        // List<Adult> adultsInFamily = Family.Adults;
+        // if (adultsInFamily.Count > 1)
+        // {
+        //     if (adultsInFamily.Any(adult => adult.LastName != adultsInFamily[0].LastName))
+        //     {
+        //         adultsInFamily.ForEach(adult => LastNames += adult.LastName + "-");
+        //         LastNames = LastNames.Remove(LastNames.Length - 1);
+        //     }
+        //     else
+        //     {
+        //         LastNames = adultsInFamily[0].LastName;
+        //     }
+        // }
+        // else if (adultsInFamily.Count == 1)
+        // {
+        //     LastNames = adultsInFamily[0].LastName;
+        // }
+        // LastNames += " Family";
     }
-
-    // [Parameter]
-    // public RenderFragment ChildContent { get; set; }
-    //
-    // [Parameter]
-    // public EventCallback<MouseEventArgs> OnClickCallback { get; set; }
 }

@@ -8,7 +8,9 @@ namespace A1_DNP1Y.Persistence
     {
         void SaveChanges();
         IList<Family> GetFamilies();
+        IList<Adult> GetAdults();
         void AddFamily(Family family);
+        void AddAdult(Adult adult);
         void UpdateFamily(Family family);
         void RemoveFamily(Family family);
     }

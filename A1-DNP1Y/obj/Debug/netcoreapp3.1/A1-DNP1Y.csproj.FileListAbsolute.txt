@@ -70,3 +70,7 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\s
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\A1-DNP1Y.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\A1-DNP1Y.pdb
 C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\A1-DNP1Y.genruntimeconfig.cache
+C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AdultsList.razor.g.cs
+C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\AdultsList.razor.g.cs
+C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddAdult.razor.g.cs
+C:\Users\andy2\RiderProjects\DNPStructureTest\A1-DNP1Y\obj\Debug\netcoreapp3.1\Razor\Pages\AddAdult.razor.g.cs
