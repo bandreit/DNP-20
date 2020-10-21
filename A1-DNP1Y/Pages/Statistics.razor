@@ -1,0 +1,95 @@
+﻿@page "/statistics"
+@using Syncfusion.Blazor.Charts
+@using A1_DNP1Y.Models
+@using A1_DNP1Y.Persistence
+@using A1_DNP1Y.Data.Impl
+@using A1_DNP1Y.Data
+@using global::Models
+@inject IAdultService AdultService
+@inject NavigationManager NavigationManager
+<div class="row">
+    <div class="col-lg-12 control-section">
+        <div class="control-section">
+            <SfAccumulationChart Title="Eye Color Statistics" EnableAnimation="false">
+                <AccumulationChartEvents Load="BeforeRender"/>
+                <AccumulationChartTooltipSettings Enable="true"></AccumulationChartTooltipSettings>
+                <AccumulationChartLegendSettings Visible="false"></AccumulationChartLegendSettings>
+                <AccumulationChartSeriesCollection>
+                    <AccumulationChartSeries DataSource="@dataSource" XName="xValue" YName="yValue" Name="Color" Radius="@OuterRadius" StartAngle="@StartAngle" EndAngle="@EndAngle"
+                                             InnerRadius="0%" ExplodeIndex="@ExplodeIndex" Explode="true" ExplodeOffset="@ExplodeRadius">
+                        <AccumulationDataLabelSettings Visible="true" Name="xValue" Position="AccumulationLabelPosition.Outside"></AccumulationDataLabelSettings>
+                    </AccumulationChartSeries>
+                </AccumulationChartSeriesCollection>
+            </SfAccumulationChart>
+        </div>
+    </div>
+</div>
+
+@code{
+    public int StartAngle = 0, value = 0, EndAngle = 360, radiusValue = 70, exploderadius = 10;
+    public double ExplodeIndex = 1;
+    public string OuterRadius = "90%", ExplodeRadius = "10%";
+    private IList<Adult> _adults;
+    private static IList<Adult> _adultsForData;
+
+    public class PieData1
+    {
+        public string xValue { get; set; }
+        public double yValue { get; set; }
+        public string r { get; set; }
+    }
+
+    private List<PieData1> dataSource = new List<PieData1>();
+    string CurrentUri;
+
+    void BeforeRender(IAccLoadedEventArgs Args)
+    {
+        CurrentUri = NavigationManager.Uri;
+        if (CurrentUri.IndexOf("material") > -1)
+        {
+            Args.Theme = AccumulationTheme.Material;
+        }
+        else if (CurrentUri.IndexOf("fabric") > -1)
+        {
+            Args.Theme = AccumulationTheme.Fabric;
+        }
+        else if (CurrentUri.IndexOf("bootstrap") > -1)
+        {
+            Args.Theme = AccumulationTheme.Bootstrap;
+        }
+        else if (CurrentUri.IndexOf("highcontrast") > -1)
+        {
+            Args.Theme = AccumulationTheme.HighContrast;
+        }
+        else
+        {
+            Args.Theme = AccumulationTheme.Bootstrap4;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        _adults = AdultService.GetAdults();
+        _adultsForData = _adults;
+        dataSource.Add(new PieData1 {xValue = "Grey", yValue = GetPersonsWithEyeColor("Grey")});
+        dataSource.Add(new PieData1 {xValue = "Brown", yValue = GetPersonsWithEyeColor("Brown")});
+        dataSource.Add(new PieData1 {xValue = "Blue", yValue = GetPersonsWithEyeColor("Blue")});
+        dataSource.Add(new PieData1 {xValue = "Green", yValue = GetPersonsWithEyeColor("Green")});
+        dataSource.Add(new PieData1 {xValue = "Amber", yValue = GetPersonsWithEyeColor("Amber")});
+        dataSource.Add(new PieData1 {xValue = "Hazel", yValue = GetPersonsWithEyeColor("Hazel")});
+    }
+
+    int GetPersonsWithEyeColor(string eyeColor)
+    {
+        int p = 0;
+        foreach (var adult in _adultsForData)
+        {
+            if (String.Equals(eyeColor, adult.EyeColor, StringComparison.CurrentCultureIgnoreCase))
+            {
+                p++;
+            }
+        }
+        return p;
+    }
+
+}

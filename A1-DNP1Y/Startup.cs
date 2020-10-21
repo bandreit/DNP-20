@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using A1_DNP1Y.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +14,8 @@ using Microsoft.Extensions.Hosting;
 using A1_DNP1Y.Data;
 using A1_DNP1Y.Data.Impl;
 using A1_DNP1Y.Persistence;
+using Microsoft.AspNetCore.Components.Authorization;
+using Models;
 using Syncfusion.Blazor;
 
 namespace A1_DNP1Y
@@ -33,7 +37,22 @@ namespace A1_DNP1Y
             services.AddServerSideBlazor();
             services.AddSingleton<FileContext>();
             services.AddSingleton<IFamilyService, FamilyService>();
+            services.AddSingleton<IAdultService, AdultService>();
             services.AddSyncfusionBlazor();
+            services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("HighLevelAdmin", a => a.RequireAuthenticatedUser().RequireAssertion(
+                    context =>
+                    {
+                        Claim levelClaim = context.User.FindFirst(claim => claim.Type.Equals("Level"));
+                        if (levelClaim == null) return false;
+                        return int.Parse(levelClaim.Value) >= 5;
+                    }));
+                options.AddPolicy("Teacher", a => a.RequireAuthenticatedUser().RequireClaim("Role", "Teacher"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

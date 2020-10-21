@@ -742,52 +742,42 @@
   },
   {
     "Id": 25,
-    "StreetName": "brown",
-    "HouseNumber": 0,
-    "Adults": [],
-    "Children": [
+    "StreetName": "Gheroghiu",
+    "HouseNumber": 30,
+    "Adults": [
       {
-        "ChildInterests": [],
-        "Pets": [
-          {
-            "Id": 0,
-            "Species": "dog",
-            "Name": "brown",
-            "Age": 0
-          },
-          {
-            "Id": 0,
-            "Species": "frog",
-            "Name": "gae",
-            "Age": 0
-          }
-        ],
-        "Id": 1,
-        "FirstName": "brown",
-        "LastName": "brown",
-        "HairColor": "brown",
-        "EyeColor": "brown",
+        "JobTitle": "IT",
+        "Id": 43,
+        "FirstName": "Ma-sa",
+        "LastName": "Mgae",
+        "HairColor": "Brown",
+        "EyeColor": "Brown",
         "Age": 0,
         "Weight": 1,
         "Height": 30,
         "Sex": "M"
       }
     ],
-    "Pets": [
+    "Children": [
       {
+        "ChildInterests": [
+          {
+            "ChildId": 0,
+            "InterestId": "Board Games"
+          }
+        ],
+        "Pets": [],
         "Id": 1,
-        "Species": "dog",
-        "Name": "hz",
-        "Age": 0
+        "FirstName": "Kid",
+        "LastName": "Dkiid",
+        "HairColor": "Brown",
+        "EyeColor": "Grey",
+        "Age": 0,
+        "Weight": 1,
+        "Height": 30,
+        "Sex": "M"
       }
-    ]
-  },
-  {
-    "Id": 26,
-    "StreetName": "fea",
-    "HouseNumber": 0,
-    "Adults": [],
-    "Children": [],
+    ],
     "Pets": []
   }
 ]

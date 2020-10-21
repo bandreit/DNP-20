@@ -15,11 +15,12 @@
           <e p="CustomAuthenticationStateProvider.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Components" t="Include">
-          <e p="FamilyCard.razor" t="Include" />
-        </e>
         <e p="Data" t="Include">
+          <e p="IAdultService.cs" t="Include" />
+          <e p="IFamilyService.cs" t="Include" />
           <e p="Impl" t="Include">
+            <e p="AdultService.cs" t="Include" />
+            <e p="FamilyService.cs" t="Include" />
             <e p="InMemoryUserService.cs" t="Include" />
           </e>
           <e p="IUserService.cs" t="Include" />
@@ -51,17 +52,20 @@
           <e p="Error.cshtml" t="Include" />
           <e p="FamiliesList.razor" t="Include" />
           <e p="Index.razor" t="Include" />
+          <e p="Statistics.razor" t="Include" />
         </e>
         <e p="Persistence" t="Include">
-          <e p="FamilyService.cs" t="Include" />
           <e p="FileContext.cs" t="Include" />
-          <e p="IFamilyService.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Shared" t="Include">
+          <e p="Components" t="Include">
+            <e p="FamilyCard.razor" t="Include" />
+          </e>
+          <e p="LoginComponent.razor" t="Include" />
           <e p="MainLayout.razor" t="Include" />
           <e p="NavMenu.razor" t="Include" />
           <e p="SurveyPrompt.razor" t="Include" />
@@ -95,6 +99,7 @@
           <e p="favicon.ico" t="Include" />
           <e p="images" t="Include">
             <e p="family.png" t="Include" />
+            <e p="relationship.png" t="Include" />
           </e>
         </e>
       </e>

@@ -2,7 +2,7 @@
 @using A1_DNP1Y.Data
 @using global::Models
 @inject IFamilyService FamilyService
-@using A1_DNP1Y.Components
+@using A1_DNP1Y.Shared.Components
 @using A1_DNP1Y.Models
 @using A1_DNP1Y.Persistence
 @using Syncfusion.Blazor.DropDowns
@@ -30,7 +30,7 @@ else
     <div class="row">
         @foreach (var family in _familiesToShow)
         {
-            <FamilyCard Family=@family>
+            <FamilyCard Family=@family RemoveFamily="RemoveFamilyById">
             </FamilyCard>
         }
     </div>
@@ -115,12 +115,14 @@ else
                 AdultNames.Add(new AdultFields() {ID = adult.Id.ToString(), Text = adult.FirstName + " " + adult.LastName});
             }
         }
+        
+    }
 
-    // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-    // var user = authState.User;
-    // Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));
-    // ownTodosToShow = allTodos.Where(t =>
-    //     t.UserId == Convert.ToInt32(userClaim.Value)).ToList();
+    void RemoveFamilyById(int? familyId)
+    {
+        Family familyToRemove = _families.First(t => t.Id == familyId);
+        FamilyService.RemoveFamily(familyId);
+        _families.Remove(familyToRemove);
     }
 
 }

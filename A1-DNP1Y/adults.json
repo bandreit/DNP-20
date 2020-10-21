@@ -504,15 +504,15 @@
     "Sex": "F"
   },
   {
-    "JobTitle": "ITA",
+    "JobTitle": "Student",
     "Id": 42,
-    "FirstName": "Huineanu",
-    "LastName": "Adult",
-    "HairColor": "Brown",
+    "FirstName": "Andrei",
+    "LastName": "Bostan",
+    "HairColor": "Blond",
     "EyeColor": "Brown",
-    "Age": 0,
-    "Weight": 1,
-    "Height": 30,
-    "Sex": "F"
+    "Age": 18,
+    "Weight": 250,
+    "Height": 178,
+    "Sex": "M"
   }
 ]

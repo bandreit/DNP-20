@@ -1,8 +1,7 @@
 ﻿@page "/adults"
 @using A1_DNP1Y.Data
 @using global::Models
-@inject IFamilyService FamilyService
-@using A1_DNP1Y.Components
+@inject IAdultService AdultService
 @using A1_DNP1Y.Models
 @using A1_DNP1Y.Persistence
 @using Syncfusion.Blazor.DropDowns
@@ -16,7 +15,7 @@
 else
 {
     <p>
-        Filter by User Id:
+        Filter by Name:
         <input type="text" @oninput="@((arg) => FilterByUserName(arg))"/>
     </p>
 
@@ -48,7 +47,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        _adults = FamilyService.GetAdults();
+        _adults = AdultService.GetAdults();
         _adultsToShow = _adults;
     }
 

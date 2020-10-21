@@ -6,7 +6,7 @@
 @using global::Models
 @using Syncfusion.Blazor.Inputs
 @using Syncfusion.Blazor.DropDowns
-@inject IFamilyService FamilyService
+@inject IAdultService AdultService
 @inject NavigationManager NavigationManager
 @using Syncfusion.Blazor.Buttons
 
@@ -20,7 +20,7 @@
             <hr/>
         </div>
 
-        <div class="card px-4 mb-4">
+        <div class="card px-4 mb-4 pb-4">
 
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
@@ -181,17 +181,9 @@ display: flex;
         new SexFields() {ID = "Other", Text = "Other"},
     };
 
-    protected async override Task OnInitializedAsync()
-    {
-    // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-    // var user = authState.User;
-    // Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));
-    // newTodoItem.UserId = Convert.ToInt32(userClaim.Value);
-    }
-
     private void AddNewAdult()
     {
-        FamilyService.AddAdult(_newAdult);
+        AdultService.AddAdult(_newAdult);
         NavigationManager.NavigateTo("/adults");
     }
 

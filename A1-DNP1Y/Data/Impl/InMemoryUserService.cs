@@ -24,6 +24,16 @@ namespace A1_DNP1Y.Data.Impl
                 },
                 new User
                 {
+                    City = "Horsens",
+                    Domain = "via.dk",
+                    Password = "123456",
+                    Role = "Admin",
+                    BirthYear = 1986,
+                    SecurityLevel = 5,
+                    UserName = "Andrei"
+                },
+                new User
+                {
                     City = "Aarhus",
                     Domain = "hotmail.com",
                     Password = "654321",
