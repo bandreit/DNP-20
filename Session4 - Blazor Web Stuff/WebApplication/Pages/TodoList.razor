@@ -4,19 +4,27 @@
 @inject ITodosService TodosService
 
 <h3>TodoList</h3>
-<p>
-    Filter by User Id:
-    <input type="number" @oninput="@((arg) => FilterByUserId(arg))" style="width:50px"/>
-</p>
+<div class="row d-flex justify-content-between align-items-center">
+    <div class="col-md-4">
+            Filter by User Id:
+            @* @oninput="@((arg) => FilterByUserId(arg))" *@
+            <input type="number" @bind="userIdfilter" style="width:50px"/>
+    </div>
 
-<p>
-    Filter by completed status:
-    <select class="form-control selectpicker" @onchange="@((arg) => FilterByCompletedStatus(arg))" style="width:100px">
-        <option>Both</option>
-        <option>False</option>
-        <option>True</option>
-    </select>
-</p>
+    <div class="col-md-4">
+            Filter by completed status:
+            @* @onchange="@((arg) => FilterByCompletedStatus(arg))" *@
+            <select class="form-control selectpicker" style="width:100px" @bind="@isCompletedFilter">
+                <option>False</option>
+                <option>True</option>
+                <option>Both</option>
+            </select>
+    </div>
+
+    <div class="col-md-4">
+        <button class="btn-info" type="button" @onclick="@((arg) => GetFilteredTodos(arg))">Get Filtered Todos</button>
+    </div>
+</div>
 
 @if (allTodos == null)
 {
@@ -39,7 +47,7 @@ else
         </tr>
         </thead>
         <tbody>
-        @foreach (var item in todosToShow)
+        @foreach (var item in allTodos)
         {
             <tr>
                 <td>@item.UserId</td>
@@ -63,61 +71,69 @@ else
 @code {
     private IList<Todo> todosToShow;
     private IList<Todo> allTodos;
-    private int? filterById;
-    private bool? filterByIsCompleted;
+    // private int? filterById;
+    // private bool? filterByIsCompleted;
+    private int? userIdfilter = 1;
+    private string isCompletedFilter = "Both";
 
-    private void FilterByUserId(ChangeEventArgs changeEventArgs)
-    {
-        filterById = null;
-        try
-        {
-            filterById = int.Parse(changeEventArgs.Value.ToString());
-        }
-        catch (Exception e)
-        {
-        }
-        ExecuteFilter();
-    }
+    // private void FilterByUserId(ChangeEventArgs changeEventArgs)
+    // {
+    //     filterById = null;
+    //     try
+    //     {
+    //         filterById = int.Parse(changeEventArgs.Value.ToString());
+    //     }
+    //     catch (Exception e)
+    //     {
+    //     }
+    //     ExecuteFilter();
+    // }
+    //
+    // private void FilterByCompletedStatus(ChangeEventArgs args)
+    // {
+    //     filterByIsCompleted = null;
+    //     try
+    //     {
+    //         filterByIsCompleted = bool.Parse(args.Value.ToString());
+    //     }
+    //     catch (Exception e)
+    //     {
+    //     }
+    //     ExecuteFilter();
+    // }
 
-    private void FilterByCompletedStatus(ChangeEventArgs args)
-    {
-        filterByIsCompleted = null;
-        try
-        {
-            filterByIsCompleted = bool.Parse(args.Value.ToString());
-        }
-        catch (Exception e)
-        {
-        }
-        ExecuteFilter();
-    }
-
-    private void ExecuteFilter()
-    {
-        todosToShow = allTodos.Where(t => 
-            (filterById != null && t.UserId == filterById || filterById == null) && 
-            (filterByIsCompleted != null && t.IsCompleted == filterByIsCompleted || filterByIsCompleted == null)
-            ).ToList();
-    }
+    // private void ExecuteFilter()
+    // {
+    //     todosToShow = allTodos.Where(t =>
+    //         (filterById != null && t.UserId == filterById || filterById == null) &&
+    //         (filterByIsCompleted != null && t.IsCompleted == filterByIsCompleted || filterByIsCompleted == null)
+    //         ).ToList();
+    // }
 
 
-    protected override async Task OnInitializedAsync()
-    {
-        allTodos = TodosService.GetTodos();
-        todosToShow = allTodos;
-    }
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     allTodos = await TodosService.GetTodosAsync();
+    //     todosToShow = allTodos;
+    // }
 
     private void RemoveTodo(int todoId)
     {
         Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
-        TodosService.RemoveTodo(todoId);
+        TodosService.RemoveTodoAsync(todoId);
         allTodos.Remove(todoToRemove);
     }
 
     private void CompletedChange(ChangeEventArgs evt, Todo todo)
     {
         todo.IsCompleted = (bool) evt.Value;
-        TodosService.Update(todo);
+        TodosService.UpdateAsync(todo);
+    }
+
+    private async Task GetFilteredTodos(MouseEventArgs mouseEventArgs)
+    {
+        allTodos = await TodosService.GetTodosAsync(userIdfilter, isCompletedFilter);
+        todosToShow = allTodos;
     }
 
 }

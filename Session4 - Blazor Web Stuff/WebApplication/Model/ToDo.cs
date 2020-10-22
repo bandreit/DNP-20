@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace WebApplication.Model
 {
@@ -6,10 +7,15 @@ namespace WebApplication.Model
     {
         [Required]
         [Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
+        [JsonPropertyName("userId")]
         public int UserId { get; set; }
 
-        public int TodoId { get; set; }
-        [Required, MaxLength(128)] public string Title { get; set; }
-        public bool IsCompleted { get; set; }
+        [JsonPropertyName("id")] public int TodoId { get; set; }
+
+        [JsonPropertyName("title")]
+        [Required, MaxLength(128)]
+        public string Title { get; set; }
+
+        [JsonPropertyName("completed")] public bool IsCompleted { get; set; }
     }
 }

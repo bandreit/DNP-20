@@ -27,7 +27,7 @@
 
     private void AddNewTodo()
     {
-        TodoService.AddTodo(newTodoItem);
+        TodoService.AddTodoAsync(newTodoItem);
         NavigationManager.NavigateTo("/TodoList");
     }
 

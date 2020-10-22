@@ -28,7 +28,8 @@ namespace WebApplication
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<ITodosService, TodoService>();
+            // services.AddSingleton<ITodosService, TodoService>();
+            services.AddSingleton<ITodosService, TodoWebService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
