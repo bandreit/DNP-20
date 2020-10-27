@@ -1,7 +1,157 @@
 ﻿@page "/"
+@using System.Net.Http.Headers
 
-<h1>Hello, world!</h1>
+<div class="container" style="display: grid; place-items: center;">
+    @if (_wordToGuess is null || _guessedSoFar is null)
+    {
+        <h1>Getting A Word</h1>
+    }
+    else
+    {
+        if (_timesFuckedUp == 0)
+        {
+            <div>
+                <img src="images/0.png" alt="hangman">
+            </div>
+        }
+        else if (_timesFuckedUp > 0 && _timesFuckedUp <= 6)
+        {
+            <div>
+                <img src=@($"images/{_timesFuckedUp}.png") alt="hangman">
+            </div>
+        }
+        <div>
+            @foreach (var letter in _guessedSoFar)
+            {
+                <span class="box">@letter</span>
+            }
+        </div>
+        @if (_timesFuckedUp >= 7)
+        {
+            <h1 class="mt-4"> You Lost.</h1>
+            <h1>The word was @_wordToGuess</h1>
+        }
+        else
+        {
+            @if (_guessedSoFar.Contains('*'))
+            {
+                <div class="wrapper mt-4">
+                    @foreach (var l in _alphabet)
+                    {
+                        <div class="@(l.Value ? "letter-true" : "letter")" @onclick="() => MarkKey(l.Key)">@l.Key</div>
+                    }
+                </div>
+            }
+            else
+            {
+                <h1 class="mt-4"> You Won.</h1>
+            }
+        }
+    }
+</div>
 
-Welcome to your new app.
+<style>
+    .box{
+        width: 5px;
+        font-size: 3em;
+        border-color: #f44336!important;
+        border-bottom: 3px solid #ccc!important;
+    }
+    
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+    }
+    
+    .letter {
+      background-color: #4A5240;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      color: white;
+      line-height: 1;
+      font-weight: 200;
+      cursor: pointer;
+      transition: all .3s ease;
+      font-size: 40px;
+      border-radius: 13%;
+    }
+    
+    .letter-true {
+          background-color: #F374AE;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          color: white;
+          line-height: 1;
+          font-weight: 200;
+          cursor: pointer;
+          transition: all .3s ease;
+          font-size: 40px;
+          border-radius: 13%;
+        }
+    
+    .letter:hover {
+         transform: scale(1.2);
+         background-color: #F4E04D;
+    }
+    
+    
+</style>
 
-<SurveyPrompt Title="How is Blazor working for you?"/>
+@code
+{
+    private string _wordToGuess;
+    private IList<char> _guessedSoFar = new List<char>();
+    private int _timesGuessed = 0;
+    private int _timesFuckedUp = 0;
+    
+
+    private Dictionary<string, bool> _alphabet = new Dictionary<string, bool>()
+    {
+        {"a", false}, {"b", false}, {"c", false}, {"d", false}, {"e", false}, {"f", false}, {"g", false}, {"h", false}, {"i", false}, {"j", false}, {"k", false}, {"l", false}, {"m", false}, {"n", false}, {"o", false}, {"p", false}, {"q", false}, {"r", false}, {"s", false}, {"t", false}, {"u", false}, {"v", false}, {"w", false}, {"x", false}, {"y", false}, {"z", false},
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient client = new HttpClient();
+        client.DefaultRequestHeaders.Accept.Clear();
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+        client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+        var streamTask = await client.GetStringAsync("https://random-words-api.herokuapp.com/w?n=1");
+        _wordToGuess = streamTask.Substring(2, streamTask.Length - 4);
+        string charedString = new string('*', _wordToGuess.Length);
+        foreach (var ch in charedString)
+        {
+            _guessedSoFar.Add(ch);
+        }
+    }
+
+    private void MarkKey(string lKey)
+    {
+        if (_alphabet[lKey] == false)
+        {
+            _timesGuessed++;
+            _alphabet[lKey] = true;
+            if (_wordToGuess.Contains(lKey))
+            {
+                char toInsert = char.Parse(lKey);
+                for (int i = 0; i < _wordToGuess.Length; i++)
+                {
+                    if (_wordToGuess[i] == toInsert)
+                    {
+                        _guessedSoFar[i] = char.Parse(lKey);
+                    }
+                }
+            }
+            else
+            {
+                _timesFuckedUp++;
+            }
+        }
+    }
+}

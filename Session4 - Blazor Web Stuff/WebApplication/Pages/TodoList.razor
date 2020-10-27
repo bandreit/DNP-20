@@ -75,48 +75,7 @@ else
     // private bool? filterByIsCompleted;
     private int? userIdfilter = 1;
     private string isCompletedFilter = "Both";
-
-    // private void FilterByUserId(ChangeEventArgs changeEventArgs)
-    // {
-    //     filterById = null;
-    //     try
-    //     {
-    //         filterById = int.Parse(changeEventArgs.Value.ToString());
-    //     }
-    //     catch (Exception e)
-    //     {
-    //     }
-    //     ExecuteFilter();
-    // }
-    //
-    // private void FilterByCompletedStatus(ChangeEventArgs args)
-    // {
-    //     filterByIsCompleted = null;
-    //     try
-    //     {
-    //         filterByIsCompleted = bool.Parse(args.Value.ToString());
-    //     }
-    //     catch (Exception e)
-    //     {
-    //     }
-    //     ExecuteFilter();
-    // }
-
-    // private void ExecuteFilter()
-    // {
-    //     todosToShow = allTodos.Where(t =>
-    //         (filterById != null && t.UserId == filterById || filterById == null) &&
-    //         (filterByIsCompleted != null && t.IsCompleted == filterByIsCompleted || filterByIsCompleted == null)
-    //         ).ToList();
-    // }
-
-
-    // protected override async Task OnInitializedAsync()
-    // {
-    //     allTodos = await TodosService.GetTodosAsync();
-    //     todosToShow = allTodos;
-    // }
-
+    
     private void RemoveTodo(int todoId)
     {
         Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);

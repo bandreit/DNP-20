@@ -726,6 +726,16 @@
                 <e p="site.css" t="Include" />
               </e>
               <e p="favicon.ico" t="Include" />
+              <e p="images" t="Include">
+                <e p="0.png" t="Include" />
+                <e p="1.png" t="Include" />
+                <e p="2.png" t="Include" />
+                <e p="3.png" t="Include" />
+                <e p="4.png" t="Include" />
+                <e p="5.png" t="Include" />
+                <e p="6.png" t="Include" />
+                <e p="hangman.png" t="Include" />
+              </e>
             </e>
           </e>
         </e>
