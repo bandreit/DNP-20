@@ -22,8 +22,10 @@
             <e p="AdultService.cs" t="Include" />
             <e p="FamilyService.cs" t="Include" />
             <e p="InMemoryUserService.cs" t="Include" />
+            <e p="WebFamilyService.cs" t="Include" />
           </e>
           <e p="IUserService.cs" t="Include" />
+          <e p="IWebFamilyService.cs" t="Include" />
         </e>
         <e p="families.json" t="Include" />
         <e p="Models" t="Include">
@@ -103,7 +105,7 @@
           </e>
         </e>
       </e>
-      <e p="Assignment1" t="Include">
+      <e p="Assignment1-2-3" t="Include">
         <e p="DNP1.A1" t="Include" />
       </e>
       <e p="DNPStructureTest.sln" t="IncludeFlat" />

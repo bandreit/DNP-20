@@ -1,15 +1,16 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace Models
 {
     public class Pet
     {
-        public int Id { get; set; }
-        [Required] [ValidSpecies] public string Species { get; set; } = "";
-        [Required] public string Name { get; set; }
-        [Required] public int Age { get; set; }
+        [JsonPropertyName("id")] public int Id { get; set; }
+        [JsonPropertyName("species")] [Required] [ValidSpecies] public string Species { get; set; } = "";
+        [JsonPropertyName("name")] [Required] public string Name { get; set; }
+        [JsonPropertyName("age")] [Required] public int Age { get; set; }
     }
 
     public class ValidSpecies : ValidationAttribute

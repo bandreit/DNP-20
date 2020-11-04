@@ -1,7 +1,8 @@
 ﻿@page "/families"
 @using A1_DNP1Y.Data
+@using A1_DNP1Y.Data.Impl
 @using global::Models
-@inject IFamilyService FamilyService
+@inject IWebFamilyService WebFamilyService
 @using A1_DNP1Y.Shared.Components
 @using A1_DNP1Y.Models
 @using A1_DNP1Y.Persistence
@@ -82,7 +83,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        _families = FamilyService.GetFamilies();
+        _families = await WebFamilyService.GetFamiliesAsync();
         _familiesToShow = _families;
 
         foreach (var family in _familiesToShow)
@@ -95,7 +96,6 @@ else
                 {
                     adultsInFamily.ForEach(adult => LastNames += adult.LastName + "-");
                     LastNames = LastNames.Remove(LastNames.Length - 1);
-                    ;
                 }
                 else
                 {
@@ -121,7 +121,7 @@ else
     void RemoveFamilyById(int? familyId)
     {
         Family familyToRemove = _families.First(t => t.Id == familyId);
-        FamilyService.RemoveFamily(familyId);
+        WebFamilyService.RemoveFamily(familyId);
         _families.Remove(familyToRemove);
     }
 

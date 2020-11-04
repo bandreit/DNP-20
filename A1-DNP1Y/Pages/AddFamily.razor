@@ -6,7 +6,7 @@
 @using global::Models
 @using Syncfusion.Blazor.Inputs
 @using Syncfusion.Blazor.DropDowns
-@inject IFamilyService FamilyService
+@inject IWebFamilyService WebFamilyService
 @inject NavigationManager NavigationManager
 @using Syncfusion.Blazor.Buttons
 
@@ -443,7 +443,7 @@ display: flex;
                 }
             }
         }
-        FamilyService.AddFamily(_newFamily);
+        WebFamilyService.AddFamily(_newFamily);
         NavigationManager.NavigateTo("/families");
     }
 

@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Models
 {
     public class Child : Person
     {
-        public List<ChildInterest> ChildInterests { get; set; }
-        [ValidateComplexType] public List<Pet> Pets { get; set; }
+        [JsonPropertyName("childInterests")] public List<ChildInterest> ChildInterests { get; set; }
+        [JsonPropertyName("pets")] [ValidateComplexType] public List<Pet> Pets { get; set; }
 
         public void Update(Child toUpdate)
         {

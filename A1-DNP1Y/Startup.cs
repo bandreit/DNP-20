@@ -36,7 +36,8 @@ namespace A1_DNP1Y
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<FileContext>();
-            services.AddSingleton<IFamilyService, FamilyService>();
+            // services.AddSingleton<IFamilyService, FamilyService>();
+            services.AddSingleton<IWebFamilyService, WebFamilyService>();
             services.AddSingleton<IAdultService, AdultService>();
             services.AddSyncfusionBlazor();
             services.AddScoped<IUserService, InMemoryUserService>();
