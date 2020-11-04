@@ -61,17 +61,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Pages/TodoList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Pages/TodoList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TodoList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/TodoList.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/TodoList.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/TodoList.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1080,6 +1088,9 @@
       <workItem from="1603362045693" duration="18437000" />
       <workItem from="1603624983838" duration="353000" />
       <workItem from="1603804017725" duration="726000" />
+      <workItem from="1603825101813" duration="1414000" />
+      <workItem from="1603961218792" duration="7143000" />
+      <workItem from="1604059834910" duration="74000" />
     </task>
     <servers />
   </component>
@@ -1116,22 +1127,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="84" key="GridCell.Tab.0.bottom" timestamp="1603625337344">
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1603973351372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603625337344" />
-    <state width="1493" height="84" key="GridCell.Tab.0.center" timestamp="1603625337343">
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603973351372" />
+    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1603973351372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603625337343" />
-    <state width="1493" height="84" key="GridCell.Tab.0.left" timestamp="1603625337343">
+    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603973351372" />
+    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1603973351372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603625337343" />
-    <state width="1493" height="84" key="GridCell.Tab.0.right" timestamp="1603625337343">
+    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603973351372" />
+    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1603973351372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="84" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603625337343" />
+    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603973351372" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1603484138969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
