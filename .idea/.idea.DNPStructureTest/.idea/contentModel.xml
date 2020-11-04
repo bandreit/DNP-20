@@ -22,9 +22,11 @@
             <e p="AdultService.cs" t="Include" />
             <e p="FamilyService.cs" t="Include" />
             <e p="InMemoryUserService.cs" t="Include" />
+            <e p="WebAdultService.cs" t="Include" />
             <e p="WebFamilyService.cs" t="Include" />
           </e>
           <e p="IUserService.cs" t="Include" />
+          <e p="IWebAdultService.cs" t="Include" />
           <e p="IWebFamilyService.cs" t="Include" />
         </e>
         <e p="families.json" t="Include" />

@@ -1,7 +1,7 @@
 ﻿@page "/adults"
 @using A1_DNP1Y.Data
 @using global::Models
-@inject IAdultService AdultService
+@inject IWebAdultService WebAdultService
 @using A1_DNP1Y.Models
 @using A1_DNP1Y.Persistence
 @using Syncfusion.Blazor.DropDowns
@@ -47,7 +47,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        _adults = AdultService.GetAdults();
+        _adults = await WebAdultService.GetAdults();
         _adultsToShow = _adults;
     }
 

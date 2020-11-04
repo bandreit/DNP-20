@@ -38,7 +38,8 @@ namespace A1_DNP1Y
             services.AddSingleton<FileContext>();
             // services.AddSingleton<IFamilyService, FamilyService>();
             services.AddSingleton<IWebFamilyService, WebFamilyService>();
-            services.AddSingleton<IAdultService, AdultService>();
+            // services.AddSingleton<IAdultService, AdultService>();
+            services.AddSingleton<IWebAdultService, WebAdultService>();
             services.AddSyncfusionBlazor();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
