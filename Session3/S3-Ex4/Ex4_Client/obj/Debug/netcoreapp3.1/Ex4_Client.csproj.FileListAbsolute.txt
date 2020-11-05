@@ -4,7 +4,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\bin\Deb
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\bin\Debug\netcoreapp3.1\Ex4_Client.runtimeconfig.dev.json
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\bin\Debug\netcoreapp3.1\Ex4_Client.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\bin\Debug\netcoreapp3.1\Ex4_Client.pdb
-C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\obj\Debug\netcoreapp3.1\Ex4_Client.csprojAssemblyReference.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\obj\Debug\netcoreapp3.1\Ex4_Client.AssemblyInfoInputs.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\obj\Debug\netcoreapp3.1\Ex4_Client.AssemblyInfo.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex4\Ex4_Client\obj\Debug\netcoreapp3.1\Ex4_Client.csproj.CoreCompileInputs.cache

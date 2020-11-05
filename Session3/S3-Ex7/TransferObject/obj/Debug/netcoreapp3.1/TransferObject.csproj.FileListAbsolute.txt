@@ -4,7 +4,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\bin
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\bin\Debug\netcoreapp3.1\TransferObject.runtimeconfig.dev.json
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\bin\Debug\netcoreapp3.1\TransferObject.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\bin\Debug\netcoreapp3.1\TransferObject.pdb
-C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\obj\Debug\netcoreapp3.1\TransferObject.csprojAssemblyReference.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\obj\Debug\netcoreapp3.1\TransferObject.AssemblyInfoInputs.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\obj\Debug\netcoreapp3.1\TransferObject.AssemblyInfo.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex7\TransferObject\obj\Debug\netcoreapp3.1\TransferObject.csproj.CoreCompileInputs.cache

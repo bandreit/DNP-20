@@ -4,7 +4,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\bin\Debug\n
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\bin\Debug\netcoreapp3.1\S3-Ex1.runtimeconfig.dev.json
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\bin\Debug\netcoreapp3.1\S3-Ex1.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\bin\Debug\netcoreapp3.1\S3-Ex1.pdb
-C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\obj\Debug\netcoreapp3.1\S3-Ex1.csprojAssemblyReference.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\obj\Debug\netcoreapp3.1\S3-Ex1.AssemblyInfoInputs.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\obj\Debug\netcoreapp3.1\S3-Ex1.AssemblyInfo.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex1\S3-Ex1\obj\Debug\netcoreapp3.1\S3-Ex1.csproj.CoreCompileInputs.cache

@@ -37,6 +37,10 @@
     <projectFile>Session5/ToDoWithAuth/TodoTutorial/TodoTutorial.csproj</projectFile>
     <projectFile>Session5/ToDoWithAuth/ToDoWAuth/ToDoWAuth.csproj</projectFile>
     <projectFile>A1-DNP1Y/A1-DNP1Y.csproj</projectFile>
+    <projectFile>../../Desktop/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
+    <projectFile>EntityCoreTodos/EntityCoreTodos.csproj</projectFile>
+    <projectFile>Assignments/DNP-A2/DNP-A2/DNP-A2.csproj</projectFile>
+    <projectFile>Assignments/DNP-A1/DNP-A1/DNP-A1.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -63,8 +67,411 @@
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AdultsList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Pages/AdultsList.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/A1-DNP1Y.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/App.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Authentication/CustomAuthenticationStateProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/IAdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/IFamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/IUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/IWebAdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/IWebFamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/AdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/FamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/InMemoryUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/WebAdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/WebFamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Adult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Child.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/ChildInterest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Family.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/Pet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddAdult.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AddFamily.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/AdultsList.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/FamiliesList.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/Index.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/Statistics.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Pages/_Host.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/Components/FamilyCard.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/LogInComponent.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/MainLayout.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Shared/SurveyPrompt.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/_Imports.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/adults.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/A1-DNP1Y.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Microsoft.JSInterop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Syncfusion.Blazor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Syncfusion.ExcelExport.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Syncfusion.Licensing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/Syncfusion.PdfExport.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/adults.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/families.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/A1-DNP1Y.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/A1-DNP1Y.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/A1-DNP1Y.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorComponent.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/A1-DNP1Y.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/AdultsList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/FamiliesList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/Statistics.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/Components/FamilyCard.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/LogInComponent.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/A1-DNP1Y.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AdultsList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamiliesList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Statistics.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/Components/FamilyCard.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LogInComponent.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/staticwebassets/A1-DNP1Y.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/Debug/netcoreapp3.1/staticwebassets/A1-DNP1Y.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/images/family.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1-DNP1Y/wwwroot/images/relationship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPStructureTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNPStructureTest.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/bin/Debug/netcoreapp3.1/S1-Ex10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/bin/Debug/netcoreapp3.1/S1-Ex10.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/bin/Debug/netcoreapp3.1/S1-Ex10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/bin/Debug/netcoreapp3.1/S1-Ex10.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/Debug/netcoreapp3.1/S1-Ex10.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/S1-Ex10.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/S1-Ex10.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/Debug/netcoreapp3.1/S1-Ex11.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/S1-Ex11.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/S1-Ex11.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/S1-Ex3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/S1-Ex3.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/bin/Debug/netcoreapp3.1/S1-Ex4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/bin/Debug/netcoreapp3.1/S1-Ex4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/bin/Debug/netcoreapp3.1/S1-Ex4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/bin/Debug/netcoreapp3.1/S1-Ex4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/Debug/netcoreapp3.1/S1-Ex4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/Debug/netcoreapp3.1/S1-Ex4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/Debug/netcoreapp3.1/S1-Ex4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/Debug/netcoreapp3.1/S1-Ex4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/S1-Ex4.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/S1-Ex4.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/S1-Ex7.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/S1-Ex7.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/S1-Ex8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/S1-Ex8.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/S1-Ex9.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/S1-Ex9.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/bin/Debug/netcoreapp3.1/S2-Ex1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/bin/Debug/netcoreapp3.1/S2-Ex1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/bin/Debug/netcoreapp3.1/S2-Ex1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/bin/Debug/netcoreapp3.1/S2-Ex1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/Debug/netcoreapp3.1/S2-Ex1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/S2-Ex1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/S2-Ex1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/bin/Debug/netcoreapp3.1/S2-Ex2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/bin/Debug/netcoreapp3.1/S2-Ex2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/bin/Debug/netcoreapp3.1/S2-Ex2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/bin/Debug/netcoreapp3.1/S2-Ex2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/Debug/netcoreapp3.1/S2-Ex2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/S2-Ex2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/S2-Ex2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/bin/Debug/netcoreapp3.1/S2-Ex3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/bin/Debug/netcoreapp3.1/S2-Ex3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/bin/Debug/netcoreapp3.1/S2-Ex3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/bin/Debug/netcoreapp3.1/S2-Ex3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/Debug/netcoreapp3.1/S2-Ex3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/S2-Ex3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/S2-Ex3.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/bin/Debug/netcoreapp3.1/S2-Ex4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/bin/Debug/netcoreapp3.1/S2-Ex4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/bin/Debug/netcoreapp3.1/S2-Ex4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/bin/Debug/netcoreapp3.1/S2-Ex4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/Debug/netcoreapp3.1/S2-Ex4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/S2-Ex4.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/S2-Ex4.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/bin/Debug/netcoreapp3.1/S2-Ex5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/bin/Debug/netcoreapp3.1/S2-Ex5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/bin/Debug/netcoreapp3.1/S2-Ex5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/bin/Debug/netcoreapp3.1/S2-Ex5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/Debug/netcoreapp3.1/S2-Ex5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/S2-Ex5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/S2-Ex5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/Debug/netcoreapp3.1/S2-Ex6.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/Debug/netcoreapp3.1/S2-Ex6.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/Debug/netcoreapp3.1/S2-Ex6.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/S2-Ex6.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/S2-Ex6.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/bin/Debug/netcoreapp3.1/S3-Ex1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/bin/Debug/netcoreapp3.1/S3-Ex1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/bin/Debug/netcoreapp3.1/S3-Ex1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/bin/Debug/netcoreapp3.1/S3-Ex1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/Debug/netcoreapp3.1/S3-Ex1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/S3-Ex1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/S3-Ex1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/bin/Debug/netcoreapp3.1/S3-Ex2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/bin/Debug/netcoreapp3.1/S3-Ex2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/bin/Debug/netcoreapp3.1/S3-Ex2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/bin/Debug/netcoreapp3.1/S3-Ex2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/Debug/netcoreapp3.1/S3-Ex2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/S3-Ex2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/S3-Ex2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/bin/Debug/netcoreapp3.1/S3-Ex3 - Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/bin/Debug/netcoreapp3.1/S3-Ex3 - Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/bin/Debug/netcoreapp3.1/S3-Ex3 - Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/bin/Debug/netcoreapp3.1/S3-Ex3 - Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/Debug/netcoreapp3.1/S3-Ex3 - Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/S3-Ex3 - Client.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/S3-Ex3 - Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/bin/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/Debug/netcoreapp3.1/S3-Ex3 - Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/S3-Ex3 - Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/S3-Ex3 - Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/bin/Debug/netcoreapp3.1/Ex4_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/bin/Debug/netcoreapp3.1/Ex4_Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/bin/Debug/netcoreapp3.1/Ex4_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/bin/Debug/netcoreapp3.1/Ex4_Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Debug/netcoreapp3.1/Ex4_Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Ex4_Client.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/Ex4_Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/Debug/netcoreapp3.1/Ex4_Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/Debug/netcoreapp3.1/Ex4_Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/Debug/netcoreapp3.1/Ex4_Server.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/Ex4_Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/Ex4_Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Debug/netcoreapp3.1/Ex5_Client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Ex5_Client.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/Ex5_Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Debug/netcoreapp3.1/Ex5_Server.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Ex5_Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/Ex5_Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Ex7_Client.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Ex7_Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/Debug/netcoreapp3.1/Ex7_Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/Debug/netcoreapp3.1/Ex7_Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/Debug/netcoreapp3.1/Ex7_Server.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/Ex7_Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/Ex7_Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/Debug/netcoreapp3.1/TransferObject.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/Debug/netcoreapp3.1/TransferObject.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/Debug/netcoreapp3.1/TransferObject.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/TransferObject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/TransferObject.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/bin/Debug/netcoreapp3.1/WebApplicationWithLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/bin/Debug/netcoreapp3.1/WebApplicationWithLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/bin/Debug/netcoreapp3.1/WebApplicationWithLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/bin/Debug/netcoreapp3.1/WebApplicationWithLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplicationWithLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplicationWithLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplicationWithLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplicationWithLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/Debug/netcoreapp3.1/WebApplicationWithLogic.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/WebApplicationWithLogic.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/WebApplicationWithLogic.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/ToDoWAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/todos.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/bin/Debug/netcoreapp3.1/todos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/RazorDeclaration/ToDoWAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/Debug/netcoreapp3.1/ToDoWAuth.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/ToDoWAuth.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/ToDoWAuth.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/RazorDeclaration/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,34 +582,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/_Host.cshtml" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/wwwroot/css/site.css" />
-        <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Pages/AddTodo.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/!FamilyService.cs" />
-        <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Data/TodoService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/Interest.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Components/FamilyCard.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FileContext.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Persistence/FamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Models/User.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/App.razor" />
-        <option value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/Shared/MainLayout.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/MainLayout.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/InMemoryUserService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/families.json" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Data/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Data/IAdultService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/AdultService.cs" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/AddAdult.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/Statistics.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/Index.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Shared/LogInComponent.razor" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/adults.json" />
-        <option value="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/FamilyService.cs" />
-        <option value="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Pages/AddTodo.razor" />
-        <option value="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Startup.cs" />
         <option value="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Model/ToDo.cs" />
         <option value="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Data/TodoService.cs" />
         <option value="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/Data/ITodosService.cs" />
@@ -226,6 +605,34 @@
         <option value="$PROJECT_DIR$/A1-DNP1Y/Data/Impl/WebAdultService.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Startup.cs" />
         <option value="$PROJECT_DIR$/A1-DNP1Y/Pages/AdultsList.razor" />
+        <option value="$USER_HOME$/Desktop/AdvancedTodoWebAPI/Models/Todo.cs" />
+        <option value="$PROJECT_DIR$/Session9/AdvancedTodoWebAPI/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Session9/EntityCoreTods/AdvancedTodoWebAPI/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/EntityCoreTodos/Startup.cs" />
+        <option value="$PROJECT_DIR$/EntityCoreTodos/Persistance/TodoContext.cs" />
+        <option value="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/Startup.cs" />
+        <option value="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/DNP-Assignments/A1-DNP1Y/_Imports.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Pages/_Host.cshtml" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Models/Child.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Models/Family.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/App.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Pages/FamiliesList.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/App.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Pages/_Host.cshtml" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Program.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Shared/Components/FamilyCard.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Pages/AdultsList.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Pages/AddFamily.razor" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/Adult.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/Child.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/ChildInterest.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/Family.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/Person.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Models/Pet.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/Pages/FamiliesList.razor" />
       </list>
     </option>
   </component>
@@ -249,9 +656,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.A1-DNP1Y">
+  <component name="RunManager" selected=".NET Launch Settings Profile.DNP-A1">
+    <configuration name="A1-DNP1Y" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DNP-Assignments/A1-DNP1Y/A1-DNP1Y.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Client" type="DotNetProject" factoryName=".NET Project" singleton="false">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Session3/Client/bin/Debug/netcoreapp3.1/Client.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -284,6 +709,24 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EntityCoreTodos" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/EntityCoreTodos.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -793,9 +1236,9 @@
       </method>
     </configuration>
     <configuration name="WebApplicationWithLogic" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/bin/Debug/netcoreapp3.1/WebApplicationWithLogic.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -827,6 +1270,126 @@
     </configuration>
     <configuration name="A1-DNP1Y: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/A1-DNP1Y/A1-DNP1Y.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedTodoWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$USER_HOME$/Desktop/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="AdvancedTodoWebAPI" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedTodoWebAPI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$USER_HOME$/Desktop/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DNP-A1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/DNP-A1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="DNP-A1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DNP-A1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/DNP-A1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DNP-A2" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/DNP-A2.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="DNP-A2" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DNP-A2: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/DNP-A2.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EntityCoreTodos" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EntityCoreTodos/EntityCoreTodos.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="EntityCoreTodos" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EntityCoreTodos: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EntityCoreTodos/EntityCoreTodos.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -874,21 +1437,6 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWithAuth/ToDoWithAuth.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="ToDoWithAuth" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="ToDoWithAuth: IIS Express (1)" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWithAuth/ToDoWithAuth.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
-      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -1001,7 +1549,10 @@
       <item itemvalue=".NET Launch Settings Profile.ToDoWAuth: WebApplication" />
       <item itemvalue=".NET Launch Settings Profile.A1-DNP1Y: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.A1-DNP1Y" />
-      <item itemvalue=".NET Launch Settings Profile.ToDoWithAuth: IIS Express (1)" />
+      <item itemvalue=".NET Launch Settings Profile.AdvancedTodoWebAPI: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.AdvancedTodoWebAPI" />
+      <item itemvalue=".NET Launch Settings Profile.EntityCoreTodos: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.EntityCoreTodos" />
       <item itemvalue=".NET Launch Settings Profile.WebApplication: IIS Express (1)" />
       <item itemvalue=".NET Project.Client" />
       <item itemvalue=".NET Project.ConsoleApp1" />
@@ -1034,13 +1585,20 @@
       <item itemvalue=".NET Project.TransferObjec" />
       <item itemvalue=".NET Project.WebApplication" />
       <item itemvalue=".NET Project.WebApplicationWithLogic" />
+      <item itemvalue=".NET Project.EntityCoreTodos" />
+      <item itemvalue=".NET Project.A1-DNP1Y" />
+      <item itemvalue=".NET Launch Settings Profile.DNP-A2: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.DNP-A2" />
+      <item itemvalue=".NET Launch Settings Profile.DNP-A1: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.DNP-A1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.A1-DNP1Y" />
+        <item itemvalue=".NET Project.EntityCoreTodos" />
         <item itemvalue=".NET Launch Settings Profile.WebApplication: IIS Express (1)" />
         <item itemvalue=".NET Project.WebApplication" />
         <item itemvalue=".NET Project.WebApplicationWithLogic" />
-        <item itemvalue=".NET Launch Settings Profile.ToDoWithAuth: IIS Express (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1076,7 +1634,14 @@
       <workItem from="1603825101813" duration="1414000" />
       <workItem from="1603961218792" duration="7143000" />
       <workItem from="1604059834910" duration="74000" />
-      <workItem from="1604516805136" duration="6751000" />
+      <workItem from="1604516805136" duration="11263000" />
+      <workItem from="1604569061213" duration="343000" />
+      <workItem from="1604569427524" duration="281000" />
+      <workItem from="1604569736973" duration="100000" />
+      <workItem from="1604569858792" duration="810000" />
+      <workItem from="1604570725700" duration="1391000" />
+      <workItem from="1604592789921" duration="1094000" />
+      <workItem from="1604593927453" duration="5196000" />
     </task>
     <servers />
   </component>
@@ -1101,10 +1666,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603362198336">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604572039077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603362198336" />
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604572039077" />
     <state x="634" y="166" key="FileChooserDialogImpl" timestamp="1602086113055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1113,90 +1678,90 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1604528611445">
+    <state width="1493" height="91" key="GridCell.Tab.0.bottom" timestamp="1604601584900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528611445" />
-    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1604528611444">
+    <state width="1493" height="91" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604601584900" />
+    <state width="1493" height="91" key="GridCell.Tab.0.center" timestamp="1604601584900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604528611444" />
-    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1604528611444">
+    <state width="1493" height="91" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604601584900" />
+    <state width="1493" height="91" key="GridCell.Tab.0.left" timestamp="1604601584900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604528611444" />
-    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1604528611444">
+    <state width="1493" height="91" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604601584900" />
+    <state width="1493" height="91" key="GridCell.Tab.0.right" timestamp="1604601584900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604528611444" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1604528172924">
+    <state width="1493" height="91" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604601584900" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1604569006503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.3.bottom" timestamp="1604528172925">
+    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604569006503" />
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528172925" />
-    <state width="1493" height="266" key="GridCell.Tab.3.center" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.3.center" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.3.left" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.3.left" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.3.right" timestamp="1604528172924">
+    <state width="1493" height="266" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.3.right" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1604528172924" />
-    <state width="1493" height="266" key="GridCell.Tab.4.bottom" timestamp="1604528172925">
+    <state width="1493" height="266" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom" timestamp="1604569006506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604528172925" />
-    <state width="1493" height="266" key="GridCell.Tab.4.center" timestamp="1604528172925">
+    <state width="1493" height="266" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604569006506" />
+    <state width="1493" height="266" key="GridCell.Tab.4.center" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1604528172925" />
-    <state width="1493" height="266" key="GridCell.Tab.4.left" timestamp="1604528172925">
+    <state width="1493" height="266" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.4.left" timestamp="1604569006505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1604528172925" />
-    <state width="1493" height="266" key="GridCell.Tab.4.right" timestamp="1604528172925">
+    <state width="1493" height="266" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1604569006505" />
+    <state width="1493" height="266" key="GridCell.Tab.4.right" timestamp="1604569006506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1604528172925" />
-    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1603360185752">
+    <state width="1493" height="266" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1604569006506" />
+    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size" timestamp="1604600597428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1603360185752" />
+    <state x="403" y="109" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1604600597428" />
     <state x="847" y="19" key="RiderGenerateDialog" timestamp="1604529816344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1205,10 +1770,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="547" y="132" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600335696186" />
-    <state x="259" y="73" key="SettingsEditor" timestamp="1603354401146">
+    <state x="259" y="73" key="SettingsEditor" timestamp="1604593938424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="259" y="73" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603354401146" />
+    <state x="259" y="73" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604593938424" />
     <state width="520" height="486" key="SwitcherDM" timestamp="1603213861868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1237,10 +1802,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1601590517887" />
-    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1604530767097">
+    <state x="449" y="11" width="887" height="801" key="find.popup" timestamp="1604596684373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604530767097" />
+    <state x="449" y="11" width="887" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604596684373" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1603377636733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

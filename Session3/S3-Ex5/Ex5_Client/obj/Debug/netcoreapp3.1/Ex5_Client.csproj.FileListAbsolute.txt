@@ -4,7 +4,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\bin\Deb
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\bin\Debug\netcoreapp3.1\Ex5_Client.runtimeconfig.dev.json
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\bin\Debug\netcoreapp3.1\Ex5_Client.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\bin\Debug\netcoreapp3.1\Ex5_Client.pdb
-C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\obj\Debug\netcoreapp3.1\Ex5_Client.csprojAssemblyReference.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\obj\Debug\netcoreapp3.1\Ex5_Client.AssemblyInfoInputs.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\obj\Debug\netcoreapp3.1\Ex5_Client.AssemblyInfo.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session3\S3-Ex5\Ex5_Client\obj\Debug\netcoreapp3.1\Ex5_Client.csproj.CoreCompileInputs.cache
