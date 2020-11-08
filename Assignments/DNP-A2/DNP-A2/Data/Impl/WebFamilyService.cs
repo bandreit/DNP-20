@@ -1,41 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
+using System.Net.Mime;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using A1_DNP1Y.Models;
-using A1_DNP1Y.Persistence;
 using Models;
 
 namespace A1_DNP1Y.Data.Impl
 {
     public class WebFamilyService : IWebFamilyService
     {
-        private FileContext _fileContext;
         private IList<Family> _families;
-
-        public WebFamilyService(FileContext fileContext)
-        {
-            _fileContext = fileContext;
-        }
-
-        public void SaveChanges()
-        {
-            _fileContext.SaveChanges();
-        }
 
         public async Task<IList<Family>> GetFamiliesAsync()
         {
             HttpClient httpClient = new HttpClient();
-            string requestURI = "http://dnp.metamate.me/families";
+            string requestURI = "http://dnp.metamate.me/Families";
             string message = await httpClient.GetStringAsync(requestURI);
             List<Family> result = JsonSerializer.Deserialize<List<Family>>(message);
+            _families = result;
             return result;
         }
 
-        public void AddFamily(Family family)
+        public async Task<HttpStatusCode> AddFamily(Family family)
         {
+            _families = await GetFamiliesAsync();
             int? maxFamilyId = _families.Max(family => family.Id);
             family.Id = (++maxFamilyId);
 
@@ -99,24 +92,39 @@ namespace A1_DNP1Y.Data.Impl
                 pet.Id = (++maxPetId);
             }
 
+            HttpClient client = new HttpClient();
 
-            _families.Add(family);
-            SaveChanges();
+            string familySerialized = JsonSerializer.Serialize(family);
+
+            StringContent content = new StringContent(
+                familySerialized,
+                Encoding.UTF8,
+                MediaTypeNames.Application.Json
+            );
+
+            HttpResponseMessage responseMessage = await client.PutAsync("http://dnp.metamate.me/Families", content);
+
+            return responseMessage.StatusCode;
         }
 
-        public void UpdateFamily(Family family)
+        public async Task<Family> RemoveFamily(string streetName, int streetNo)
         {
-            // Family toUpdate = Families.First(t => t.Id == family.Id);
-            //TODO: CREATE UPDATE
-            // toUpdate. = todo.IsCompleted;
-            // SaveChanges();
-        }
+            HttpClient client = new HttpClient();
 
-        public void RemoveFamily(int? familyId)
-        {
-            Family toRemove = _families.First(t => t.Id == familyId);
-            _families.Remove(toRemove);
-            SaveChanges();
+            HttpResponseMessage responseMessage =
+                await client.DeleteAsync(
+                    $"http://dnp.metamate.me/Families?streetname={streetName}&housenumber={streetNo}");
+
+            String reply = await responseMessage.Content.ReadAsStringAsync();
+            
+            Family familyDeserialized = JsonSerializer.Deserialize<Family>(reply);
+
+            if (responseMessage.StatusCode == HttpStatusCode.OK)
+            {
+                return familyDeserialized;
+            }
+
+            return null;
         }
     }
 }

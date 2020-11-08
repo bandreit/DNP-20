@@ -9,7 +9,6 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\bi
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.pdb
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.Views.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.Views.pdb
-C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csprojAssemblyReference.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfoInputs.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfo.cs
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CoreCompileInputs.cache
@@ -48,3 +47,4 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\ob
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.pdb
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.genruntimeconfig.cache
 C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CopyComplete
+C:\Users\andy2\RiderProjects\DNPStructureTest\Session7\Hangman\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csprojAssemblyReference.cache

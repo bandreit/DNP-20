@@ -174,39 +174,6 @@
     "Pets": null
   },
   {
-    "Id": 6,
-    "StreetName": "California Street",
-    "HouseNumber": 2,
-    "Adults": [
-      {
-        "JobTitle": "Assistant Professor",
-        "Id": 10,
-        "FirstName": "Anya",
-        "LastName": "Nielsen",
-        "HairColor": "Black",
-        "EyeColor": "Brown",
-        "Age": 44,
-        "Weight": 86.5,
-        "Height": 171,
-        "Sex": "F"
-      },
-      {
-        "JobTitle": "Janitor",
-        "Id": 11,
-        "FirstName": "Arnulfo",
-        "LastName": "Burks",
-        "HairColor": "Blond",
-        "EyeColor": "Brown",
-        "Age": 52,
-        "Weight": 83,
-        "Height": 180,
-        "Sex": "M"
-      }
-    ],
-    "Children": [],
-    "Pets": null
-  },
-  {
     "Id": 7,
     "StreetName": "Forest Street",
     "HouseNumber": 1,

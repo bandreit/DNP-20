@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using A1_DNP1Y.Authentication;
 using A1_DNP1Y.Data;
 using A1_DNP1Y.Data.Impl;
-using A1_DNP1Y.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -34,10 +33,7 @@ namespace DNP_A2
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<FileContext>();
-            // services.AddSingleton<IFamilyService, FamilyService>();
             services.AddSingleton<IWebFamilyService, WebFamilyService>();
-            // services.AddSingleton<IAdultService, AdultService>();
             services.AddSingleton<IWebAdultService, WebAdultService>();
             services.AddSyncfusionBlazor();
             services.AddScoped<IUserService, InMemoryUserService>();

@@ -2,13 +2,13 @@
 @using A1_DNP1Y.Data.Impl
 @using A1_DNP1Y.Data
 @using A1_DNP1Y.Models
-@using A1_DNP1Y.Persistence
 @using global::Models
 @using Syncfusion.Blazor.Inputs
 @using Syncfusion.Blazor.DropDowns
 @inject IWebFamilyService WebFamilyService
 @inject NavigationManager NavigationManager
 @using Syncfusion.Blazor.Buttons
+@using System.Net
 
 <div class="col-lg-12 control-section">
 <EditForm Model="@_newFamily" OnValidSubmit="@AddNewFamily" class="content-wrapper">
@@ -130,7 +130,6 @@ else
     var index = i;
     var child = _newFamily.Children[i];
     ListOfChildInterests.Add(new SfListBox<string[], Interest>());
-    // Values.Add(new string[] {"Soccer"});
     Values.Add(new FormResponse());
     SfListBox<string[], Interest> localListBox = ListOfChildInterests[index];
 
@@ -411,7 +410,7 @@ display: flex;
         new Interest() {Type = "Frozen"}
     };
 
-    // private string[] Value = new string[] {"Soccer"};
+
     public class FormResponse
     {
         public string[] Value { get; set; }
@@ -419,17 +418,9 @@ display: flex;
 
     List<FormResponse> Values = new List<FormResponse>();
     List<SfListBox<string[], Interest>> ListOfChildInterests = new List<SfListBox<string[], Interest>>();
+    
 
-
-    protected async override Task OnInitializedAsync()
-    {
-    // var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
-    // var user = authState.User;
-    // Claim userClaim = user.FindFirst(claim => claim.Type.Equals("Id"));
-    // newTodoItem.UserId = Convert.ToInt32(userClaim.Value);
-    }
-
-    private void AddNewFamily()
+    private async void AddNewFamily()
     {
         for (int i = 0; i < _newFamily.Children.Count; i++)
         {
@@ -443,8 +434,15 @@ display: flex;
                 }
             }
         }
-        WebFamilyService.AddFamily(_newFamily);
-        NavigationManager.NavigateTo("/families");
-    }
 
+        HttpStatusCode responseCode = await WebFamilyService.AddFamily(_newFamily);
+        if (responseCode == HttpStatusCode.OK)
+        {
+            NavigationManager.NavigateTo("/families");
+        }
+        else
+        {
+            Console.Out.WriteLine("Error"); // I need a proper error handling UI logic :((
+        }
+    }
 }

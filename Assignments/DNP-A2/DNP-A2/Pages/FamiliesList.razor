@@ -6,8 +6,8 @@
 @using A1_DNP1Y.Models
 @using DNP_A2.Shared.Components
 @using Shared.Components
-@using A1_DNP1Y.Persistence
 @using Syncfusion.Blazor.DropDowns
+@using System.Net
 
 @if (_familiesToShow == null)
 {
@@ -32,7 +32,7 @@ else
     <div class="row">
         @foreach (var family in _familiesToShow)
         {
-             <FamilyCard Family=@family RemoveFamily="RemoveFamilyById">
+             <FamilyCard Family=@family RemoveFamily="RemoveFamilyByHouseStreetAndNo">
              </FamilyCard>
         }
     </div>
@@ -62,7 +62,7 @@ else
     private void FilterByFamilyName()
     {
         _familiesToShow = _families.Where(family => family.GetLastNames() == FamilyToSearch).ToList();
-        if (FamilyToSearch == null)
+        if (string.IsNullOrEmpty(FamilyToSearch))
         {
             _familiesToShow = _families;
         }
@@ -118,12 +118,15 @@ else
         }
         
     }
-
-    void RemoveFamilyById(int? familyId)
+    
+    private async Task RemoveFamilyByHouseStreetAndNo(string streetName, int streetNo)
     {
-        Family familyToRemove = _families.First(t => t.Id == familyId);
-        WebFamilyService.RemoveFamily(familyId);
-        _families.Remove(familyToRemove);
+        Family familyToRemove = await WebFamilyService.RemoveFamily(streetName, streetNo);
+        if (!(familyToRemove is null))
+        {
+            _families.Remove(_families.First(family => family.HouseNumber == familyToRemove.HouseNumber && family.StreetName == familyToRemove.StreetName));
+            StateHasChanged();
+        }
     }
 
 }
