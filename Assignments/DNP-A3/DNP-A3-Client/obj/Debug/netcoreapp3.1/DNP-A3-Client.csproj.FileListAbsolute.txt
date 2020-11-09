@@ -77,3 +77,5 @@ C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\b
 C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\bin\Debug\netcoreapp3.1\Syncfusion.PdfExport.Net.dll
 C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\bin\Debug\netcoreapp3.1\adults.json
+C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditFamily.razor.g.cs
+C:\Users\andy2\RiderProjects\DNPStructureTest\Assignments\DNP-A3\DNP-A3-Client\obj\Debug\netcoreapp3.1\Razor\Pages\EditFamily.razor.g.cs

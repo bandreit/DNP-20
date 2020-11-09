@@ -8,7 +8,7 @@ namespace A1_DNP1Y.Models
 {
     public class Family
     {
-        public int? Id { get; set; }
+        [JsonPropertyName("id")]public int? Id { get; set; }
         [JsonPropertyName("streetName")][Required (ErrorMessage = "Street Name Field is Required")] public string StreetName { get; set; }
         [JsonPropertyName("houseNumber")][Required] public int HouseNumber { get; set; }
         [JsonPropertyName("adults")][ValidateComplexType] public List<Adult> Adults { get; set; }

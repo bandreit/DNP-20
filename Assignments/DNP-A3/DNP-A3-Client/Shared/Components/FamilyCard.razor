@@ -3,6 +3,7 @@
 @using global::Models
 @using A1_DNP1Y.Models
 @using A1_DNP1Y.Data.Impl
+@inject NavigationManager NavigationManager
 @inject IWebFamilyService WebFamilyService
 @* <div class="control-section"> *@
 @* <div class="e-card-layout"> *@
@@ -72,7 +73,8 @@
             <CardFooterContent>
                 <SfButton CssClass="e-outline" @onclick="@(() => Expand = !Expand)">@(Expand ? "Collapse" : "Expand")</SfButton>
                 <AuthorizeView Policy="HighLevelAdmin">
-                    <SfButton CssClass="e-danger" @onclick=@(() => RemoveFamily(Family.StreetName, Family.HouseNumber))>Delete Family</SfButton>
+                    <SfButton CssClass="e-danger" @onclick=@(() => RemoveFamily(Family.StreetName, Family.HouseNumber))>Delete</SfButton>
+                    <SfButton CssClass="e-info" @onclick=@(() => EditThisFamily.InvokeAsync(Family.Id))>Edit</SfButton>
                 </AuthorizeView>
             </CardFooterContent>
         </CardFooter>
@@ -143,11 +145,15 @@
 
     [Parameter]
     public Func<string, int, Task> RemoveFamily { get; set; }
+    
+    [Parameter]
+    public EventCallback<int?> EditThisFamily { get; set; }
 
     private string LastNames { get; set; } = "";
 
     protected async override Task OnInitializedAsync()
     {
     }
+
 
 }

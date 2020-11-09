@@ -11,5 +11,6 @@ namespace A1_DNP1Y.Data.Impl
         Task<Family> AddFamilyAsync(Family family);
         void UpdateFamily(Family family);
         Task<Family> RemoveFamily(string streetName, int houseNo);
+        Task<Family> GetFamilyAsync(int id);
     }
 }

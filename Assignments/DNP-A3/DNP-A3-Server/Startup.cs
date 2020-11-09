@@ -32,6 +32,7 @@ namespace DNP_A3_Server
             services.AddSingleton<FileContext>();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<IWebFamilyService, WebFamilyService>();
+            services.AddScoped<IWebAdultService, WebAdultService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

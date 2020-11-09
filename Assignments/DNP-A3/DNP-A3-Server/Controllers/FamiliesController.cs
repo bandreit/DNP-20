@@ -32,6 +32,22 @@ namespace DNP_A3_Server.Controllers
                 return StatusCode(500, e.Message);
             }
         }
+        
+        [HttpGet]
+        [Route("{id:int}")]
+        public async Task<ActionResult<Family>> GetFamily([FromRoute] int id)
+        {
+            try
+            {
+                Family family = await familiesService.GetFamilyAsync(id);
+                return Ok(family);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return StatusCode(500, e.Message);
+            }
+        }
 
         [HttpPost]
         public async Task<ActionResult<Family>> AddFamily([FromBody] Family family)

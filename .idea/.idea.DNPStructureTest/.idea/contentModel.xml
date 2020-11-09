@@ -250,6 +250,7 @@
               <e p="AddAdult.razor" t="Include" />
               <e p="AddFamily.razor" t="Include" />
               <e p="AdultsList.razor" t="Include" />
+              <e p="EditFamily.razor" t="Include" />
               <e p="Error.cshtml" t="Include" />
               <e p="FamiliesList.razor" t="Include" />
               <e p="Index.razor" t="Include" />
@@ -307,6 +308,7 @@
             <e p="appsettings.json" t="Include" />
             <e p="bin" t="ExcludeRecursive" />
             <e p="Controllers" t="Include">
+              <e p="AdultsController.cs" t="Include" />
               <e p="AuthenticateController.cs" t="Include" />
               <e p="FamiliesController.cs" t="Include" />
             </e>

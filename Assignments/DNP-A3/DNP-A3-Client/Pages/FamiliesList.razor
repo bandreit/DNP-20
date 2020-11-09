@@ -3,6 +3,7 @@
 @using A1_DNP1Y.Data.Impl
 @using global::Models
 @inject IWebFamilyService WebFamilyService
+@inject NavigationManager NavigationManager
 @using A1_DNP1Y.Models
 @using DNP_A3.Shared.Components
 @using Shared.Components
@@ -32,7 +33,7 @@ else
     <div class="row">
         @foreach (var family in _familiesToShow)
         {
-             <FamilyCard Family=@family RemoveFamily="RemoveFamilyByHouseStreetAndNo">
+             <FamilyCard Family=@family RemoveFamily="RemoveFamilyByHouseStreetAndNo" EditThisFamily="EditThisFamily">
              </FamilyCard>
         }
     </div>
@@ -129,4 +130,9 @@ else
         }
     }
 
+    void EditThisFamily(int? familyId)
+    {
+        NavigationManager.NavigateTo($"/edit-family?id={familyId}");
+    }
+    
 }

@@ -6,7 +6,8 @@ namespace A1_DNP1Y.Data
 {
     public interface IWebAdultService
     {
-        Task<IList<Adult>> GetAdults();
-        void AddAdult(Adult adult);
+        void SaveChanges();
+        Task<IList<Adult>> GetAdultsAsync();
+        Task<Adult> AddAdultAsync(Adult adult);
     }
 }

@@ -14,7 +14,7 @@ namespace A1_DNP1Y.Data.Impl
         public async Task<IList<Adult>> GetAdults()
         {
             HttpClient httpClient = new HttpClient();
-            string requestURI = "http://dnp.metamate.me/adults";
+            string requestURI = "https://localhost:5003/adults";
             string message = await httpClient.GetStringAsync(requestURI);
             List<Adult> result = JsonSerializer.Deserialize<List<Adult>>(message);
             return result;
@@ -32,7 +32,7 @@ namespace A1_DNP1Y.Data.Impl
                 MediaTypeNames.Application.Json
             );
 
-            HttpResponseMessage responseMessage = await client.PutAsync("http://dnp.metamate.me/Adults", content);
+            HttpResponseMessage responseMessage = await client.PostAsync("https://localhost:5003/Adults", content);
 
             return responseMessage.StatusCode;
         }

@@ -119,5 +119,11 @@ namespace A1_DNP1Y.Data.Impl
             SaveChanges();
             return toRemove;
         }
+
+        public async Task<Family> GetFamilyAsync(int id)
+        {
+            Family family = _families.First(family => family.Id == id);
+            return family;
+        }
     }
 }
