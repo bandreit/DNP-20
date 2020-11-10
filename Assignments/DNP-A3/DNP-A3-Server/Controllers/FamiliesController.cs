@@ -71,7 +71,7 @@ namespace DNP_A3_Server.Controllers
         
         [HttpPut]
         [Route("{id:int}")]
-        public async Task<ActionResult<Family>> UpdateTodo([FromBody] Family family)
+        public async Task<ActionResult<Family>> UpdateFamily([FromBody] Family family)
         {
             try
             {
