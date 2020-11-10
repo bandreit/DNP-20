@@ -9,7 +9,7 @@ namespace A1_DNP1Y.Data.Impl
         void SaveChanges();
         Task<IList<Family>> GetFamiliesAsync();
         Task<Family> AddFamilyAsync(Family family);
-        void UpdateFamily(Family family);
+        Task<Family> UpdateFamily(Family family);
         Task<Family> RemoveFamily(string streetName, int houseNo);
         Task<Family> GetFamilyAsync(int id);
     }

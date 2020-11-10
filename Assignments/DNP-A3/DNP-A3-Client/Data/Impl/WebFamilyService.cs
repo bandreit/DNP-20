@@ -81,7 +81,7 @@ namespace A1_DNP1Y.Data.Impl
                 MediaTypeNames.Application.Json
             );
 
-            HttpResponseMessage responseMessage = await client.PatchAsync("https://localhost:5003/families", content);
+            HttpResponseMessage responseMessage = await client.PutAsync($"https://localhost:5003/families/{newFamily.Id}", content);
         }
     }
 }

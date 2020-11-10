@@ -30,7 +30,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 1,
@@ -40,7 +40,7 @@
       {
         "JobTitle": "Singer",
         "Id": 2,
-        "FirstName": "Ahana",
+        "FirstName": "Huiana",
         "LastName": "Bernard",
         "HairColor": "Brown",
         "EyeColor": "Brown",
@@ -51,7 +51,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 2,
@@ -84,7 +84,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 3,
@@ -117,7 +117,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 4,
@@ -138,7 +138,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 5,
@@ -171,7 +171,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 6,
@@ -204,7 +204,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 7,
@@ -225,7 +225,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 8,
@@ -258,7 +258,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 9,
@@ -279,7 +279,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 10,
@@ -312,7 +312,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 11,
@@ -345,7 +345,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 12,
@@ -366,7 +366,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 13,
@@ -399,7 +399,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 14,
@@ -432,7 +432,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 15,
@@ -465,7 +465,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 16,
@@ -498,7 +498,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 17,
@@ -531,7 +531,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 18,
@@ -564,7 +564,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 19,
@@ -585,7 +585,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 20,
@@ -618,7 +618,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 21,
@@ -639,7 +639,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 22,
@@ -672,7 +672,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 23,
@@ -705,7 +705,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 24,
@@ -738,7 +738,7 @@
       }
     ],
     "Children": [],
-    "Pets": null
+    "Pets": []
   },
   {
     "Id": 25,

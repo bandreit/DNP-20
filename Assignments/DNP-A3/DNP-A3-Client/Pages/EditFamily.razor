@@ -127,6 +127,7 @@ else
 }
 <hr/>
 
+
 @if (_newFamily.Children.Count != 0)
 {
     @for (var i = 0; i < _newFamily.Children.Count; i++)
@@ -302,7 +303,7 @@ else
 
 
 <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 my-2">
-    <SfButton IsPrimary="true" type="submit">Create Family</SfButton>
+    <SfButton IsPrimary="true" type="submit">Edit Family</SfButton>
 </div>
 
 </EditForm>
@@ -427,7 +428,6 @@ display: flex;
     protected override async Task OnInitializedAsync()
     {
         string familyId = HttpUtility.ParseQueryString(NavigationManager.ToAbsoluteUri(NavigationManager.Uri).Query).Get("id");
-        Console.Out.WriteLine(familyId);
         _newFamily = await WebFamilyService.GetFamilyAsync(IntegerType.FromString(familyId));
     }
 

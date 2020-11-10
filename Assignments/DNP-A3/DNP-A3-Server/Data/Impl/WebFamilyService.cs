@@ -103,12 +103,16 @@ namespace A1_DNP1Y.Data.Impl
             return family;
         }
 
-        public void UpdateFamily(Family family)
+        public async Task<Family> UpdateFamily(Family family)
         {
-            // Family toUpdate = Families.First(t => t.Id == family.Id);
-            //TODO: CREATE UPDATE
-            // toUpdate. = todo.IsCompleted;
-            // SaveChanges();
+             Family toUpdate = _families.First(f => f.Id == family.Id);
+             toUpdate.Adults = family.Adults;
+             toUpdate.Children = family.Children;
+             toUpdate.Pets = family.Pets;
+             toUpdate.HouseNumber = family.HouseNumber;
+             toUpdate.StreetName = family.StreetName;
+             SaveChanges();
+             return toUpdate;
         }
 
         public async Task<Family> RemoveFamily(string streetName, int houseNo)

@@ -68,6 +68,22 @@ namespace DNP_A3_Server.Controllers
                 return StatusCode(500, e.Message);
             }
         }
+        
+        [HttpPut]
+        [Route("{id:int}")]
+        public async Task<ActionResult<Family>> UpdateTodo([FromBody] Family family)
+        {
+            try
+            {
+                Family updatedFamily = await familiesService.UpdateFamily(family);
+                return Ok(updatedFamily);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return StatusCode(500, e.Message);
+            }
+        }
 
         [HttpDelete]
         public async Task<ActionResult<Family>> DeleteFamily([FromQuery] string streetname, [FromQuery] int housenumber)
