@@ -71,29 +71,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Data/Impl/WebFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Data/Impl/WebFamilyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/Razor/Pages/EditFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/Razor/Pages/EditFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/FamiliesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/FamiliesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/IWebFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/IWebFamilyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/Impl/WebFamilyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/Impl/WebFamilyService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/families.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/AdultsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,14 +236,14 @@
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Models/Family.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/FamiliesList.razor" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Data/IWebFamilyService.cs" />
-        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/AdultsController.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/Data/Impl/WebAdultService.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/families.json" />
-        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/FamiliesController.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/IWebFamilyService.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Data/Impl/WebFamilyService.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Data/Impl/WebFamilyService.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/AdultsController.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/Controllers/FamiliesController.cs" />
       </list>
     </option>
   </component>
@@ -1104,7 +1082,7 @@
       <workItem from="1604593927453" duration="7605000" />
       <workItem from="1604610102386" duration="28929000" />
       <workItem from="1604835358140" duration="13507000" />
-      <workItem from="1604919821417" duration="11802000" />
+      <workItem from="1604919821417" duration="14725000" />
     </task>
     <servers />
   </component>
@@ -1141,22 +1119,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1605014275990">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1605016060381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605014275990" />
-    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1605014275990">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605016060381" />
+    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1605016060381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605014275990" />
-    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1605014275990">
+    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605016060381" />
+    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1605016060381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605014275990" />
-    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1605014275990">
+    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605016060381" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1605016060381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605014275990" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605016060381" />
     <state width="1493" height="298" key="GridCell.Tab.1.bottom" timestamp="1605013453388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

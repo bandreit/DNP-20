@@ -32,7 +32,7 @@ namespace DNP_A3_Server.Controllers
                 return StatusCode(500, e.Message);
             }
         }
-        
+
         [HttpPost]
         public async Task<ActionResult<Adult>> AddAdult([FromBody] Adult adult)
         {
@@ -52,6 +52,5 @@ namespace DNP_A3_Server.Controllers
                 return StatusCode(500, e.Message);
             }
         }
-        
     }
 }
