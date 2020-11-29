@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="AssignmentDb.db" uuid="5835ce3f-8aaa-4cbe-9326-66fa3fe6f8ef">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Server/AssignmentDb.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -134,9 +134,19 @@ else
     {
         var index = i;
         var child = _newFamily.Children[i];
+
         ListOfChildInterests.Add(new SfListBox<string[], Interest>());
-        Values.Add(new FormResponse());
+        
+        string[] childInterestsToPutInForm = new string[child.ChildInterests.Count];
+        int k = 0;
+        foreach (var childInterest in child.ChildInterests)
+        {
+            childInterestsToPutInForm[k] = childInterest.InterestId;
+            k++;
+        }
+        
         SfListBox<string[], Interest> localListBox = ListOfChildInterests[index];
+        Values.Add(new FormResponse() {Value = childInterestsToPutInForm});
 
         <div class="card px-4 mb-4">
 
@@ -437,9 +447,10 @@ display: flex;
         {
             var localInterests = ListOfChildInterests[i].GetDataByValue(Values[i].Value);
             var child = _newFamily.Children[i];
+            _newFamily.Children[i].ChildInterests = new List<ChildInterest>();
             if (localInterests.Count != 0 && localInterests != null)
             {
-                foreach (Interest li in localInterests)
+                foreach (Interest li in localInterests.Distinct())
                 {
                     _newFamily.Children[i].ChildInterests.Add(new ChildInterest() {ChildId = child.Id, Child = child, InterestId = li.Type, Interest = new Interest() {Type = li.Type}});
                 }

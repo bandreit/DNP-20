@@ -1,0 +1,159 @@
+﻿@using Syncfusion.Blazor.Cards
+@using Syncfusion.Blazor.Buttons
+@using global::Models
+@using A1_DNP1Y.Models
+@using A1_DNP1Y.Data.Impl
+@inject NavigationManager NavigationManager
+@inject IWebFamilyService WebFamilyService
+@* <div class="control-section"> *@
+@* <div class="e-card-layout"> *@
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 my-2">
+    <SfCard>
+        <CardHeader Title="@Family.GetLastNames()" SubTitle="@($"{Family.Adults.Count + Family.Children.Count} {(Family.Adults.Count + Family.Children.Count > 1 ? "people" : Family.Adults.Count + Family.Children.Count == 1 ? "person" : "people")}")"/>
+        <CardContent>
+            <table style="margin-bottom: 10px;">
+                <tr>
+                    <td>
+                        @if (Family.Children.Count > 0)
+                        {
+                            <img src="images/family.png" alt="family" class="img-fluid"/>
+                        }
+                        else
+                        {
+                            <img src="images/relationship.png" alt="relationship" class="img-fluid"/>
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <div style="font-size: 16px">@Family.StreetName @Family.HouseNumber</div>
+                </tr>
+            </table>
+            @if (Expand)
+            {
+                List<Adult> adults = Family.Adults;
+                List<Child> kids = Family.Children;
+                List<Pet> pets = Family.Pets;
+
+                @if (adults.Count > 0)
+                {
+                    <p>Adults:</p>
+                    <div style="padding-left: 10px">
+                        @foreach (var adult in adults)
+                        {
+                            <p>@adult.FirstName @adult.LastName</p>
+                        }
+                    </div>
+                }
+
+                @if (kids.Count > 0)
+                {
+                    <p>Kids:</p>
+                    <div style="padding-left: 10px">
+                        @foreach (var kid in kids)
+                        {
+                            <p>@kid.FirstName @kid.LastName</p>
+                        }
+                    </div>
+                }
+
+                @if (!(pets is null))
+                {
+                    <p>Pets:</p>
+                    <div style="padding-left: 10px">
+                        @foreach (var pet in pets)
+                        {
+                            <p>@pet.Name</p>
+                        }
+                    </div>
+                }
+            }
+        </CardContent>
+        <CardContent EnableSeperator="true"></CardContent>
+        <CardFooter>
+            <CardFooterContent>
+                <SfButton CssClass="e-outline" @onclick="@(() => Expand = !Expand)">@(Expand ? "Collapse" : "Expand")</SfButton>
+                <AuthorizeView Policy="HighLevelAdmin">
+                    <SfButton CssClass="e-danger" @onclick=@(() => RemoveFamily(Family.StreetName, Family.HouseNumber))>Delete</SfButton>
+                    <SfButton CssClass="e-info" @onclick=@(() => EditThisFamily.InvokeAsync(Family.Id))>Edit</SfButton>
+                </AuthorizeView>
+            </CardFooterContent>
+        </CardFooter>
+    </SfCard>
+</div>
+
+@code{
+    bool Expand = false;
+}
+
+<style>
+    .TempClass {
+        font-size: 30px;
+    }
+    .FontSize50{
+            font-size: 50px;
+        }
+    .TempImage {
+        background-image: url(https://ej2.syncfusion.com/demos/src/chart/images/sunny.png);
+        height: 40px;
+        width: 40px;
+    }
+    .SunnyImage {
+        height: 40px;
+        width: 40px;
+        background-image: url(https://ej2.syncfusion.com/demos/src/chart/images/sunny.png);
+    }
+    .CloudyImage {
+        height: 40px;
+        width: 40px;
+        background-image: url(https://ej2.syncfusion.com/demos/src/chart/images/cloud.png);
+    }
+    .e-card .e-card-header .e-card-header-caption .e-card-header-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .e-card .e-card-header .e-card-header-caption .e-card-sub-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .e-card .e-card-content {
+        padding-top: 0px;
+    }
+    .e-card {
+        background-color: white;
+    }
+    .RainText {
+        color: blue;
+    }
+    .RainImage {
+        height: 20px;
+        width: 20px;
+        background-image: url(https://ej2.syncfusion.com/demos/src/chart/images/cloud.png);
+    }
+    table {
+        width: 100%;
+    }
+    .TextCenter {
+        text-align: center;
+    }
+   
+</style>
+
+@code {
+
+    [Parameter]
+    public Family Family { get; set; }
+
+    [Parameter]
+    public Func<string, int, Task> RemoveFamily { get; set; }
+    
+    [Parameter]
+    public EventCallback<int?> EditThisFamily { get; set; }
+
+    private string LastNames { get; set; } = "";
+
+    protected async override Task OnInitializedAsync()
+    {
+    }
+
+
+}

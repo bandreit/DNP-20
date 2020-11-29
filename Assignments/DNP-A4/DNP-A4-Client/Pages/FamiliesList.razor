@@ -1,0 +1,138 @@
+﻿@page "/families"
+@using A1_DNP1Y.Data
+@using A1_DNP1Y.Data.Impl
+@using global::Models
+@inject IWebFamilyService WebFamilyService
+@inject NavigationManager NavigationManager
+@using A1_DNP1Y.Models
+@using Shared.Components
+@using Syncfusion.Blazor.DropDowns
+@using System.Net
+@using DNP_A4_Client.Shared.Components
+
+@if (_familiesToShow == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-2">
+            <SfAutoComplete TValue="string" TItem="FamilyFields" Placeholder="Search By Family" DataSource="@FamilyNames" @onchange="@FilterByFamilyName" @bind-Value="@FamilyToSearch">
+                <AutoCompleteFieldSettings Value="Text"></AutoCompleteFieldSettings>
+            </SfAutoComplete>
+        </div>
+        <div class="col-md-2">
+            <SfAutoComplete TValue="string" TItem="AdultFields" Placeholder="Search By Adult" DataSource="@AdultNames" @onchange="@FilterByFamilyAdult" @bind-Value="@FamilyToSearchByAdult">
+                <AutoCompleteFieldSettings Value="Text"></AutoCompleteFieldSettings>
+            </SfAutoComplete>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var family in _familiesToShow)
+        {
+             <FamilyCard Family=@family RemoveFamily="RemoveFamilyByHouseStreetAndNo" EditThisFamily="EditThisFamily">
+             </FamilyCard>
+        }
+    </div>
+}
+
+@code {
+    private IList<Family> _families;
+    private IList<Family> _familiesToShow;
+    private string FamilyToSearch { get; set; }
+    private string FamilyToSearchByAdult { get; set; }
+
+    public class FamilyFields
+    {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+
+    public class AdultFields
+    {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+
+    public List<FamilyFields> FamilyNames = new List<FamilyFields>();
+    public List<AdultFields> AdultNames = new List<AdultFields>();
+
+    private void FilterByFamilyName()
+    {
+        _familiesToShow = _families.Where(family => family.GetLastNames() == FamilyToSearch).ToList();
+        if (string.IsNullOrEmpty(FamilyToSearch))
+        {
+            _familiesToShow = _families;
+        }
+    }
+
+    private void FilterByFamilyAdult()
+    {
+        _familiesToShow = _families.Where(CheckForAdults).ToList();
+        if (string.IsNullOrEmpty(FamilyToSearchByAdult))
+        {
+            _familiesToShow = _families;
+        }
+    }
+
+    private bool CheckForAdults(Family family)
+    {
+        return family.Adults.Exists(adult => adult.FirstName + " " + adult.LastName == FamilyToSearchByAdult);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        _families = await WebFamilyService.GetFamiliesAsync();
+        _familiesToShow = _families;
+
+        foreach (var family in _familiesToShow)
+        {
+            string LastNames = "";
+            List<Adult> adultsInFamily = family.Adults;
+            if (adultsInFamily.Count > 1)
+            {
+                if (adultsInFamily.Any(adult => adult.LastName != adultsInFamily[0].LastName))
+                {
+                    adultsInFamily.ForEach(adult => LastNames += adult.LastName + "-");
+                    LastNames = LastNames.Remove(LastNames.Length - 1);
+                }
+                else
+                {
+                    LastNames = adultsInFamily[0].LastName;
+                }
+            }
+            else if (adultsInFamily.Count == 1)
+            {
+                LastNames = adultsInFamily[0].LastName;
+            }
+            LastNames += " Family";
+
+            FamilyNames.Add(new FamilyFields() {ID = family.Id.ToString(), Text = LastNames});
+
+            foreach (var adult in family.Adults)
+            {
+                AdultNames.Add(new AdultFields() {ID = adult.Id.ToString(), Text = adult.FirstName + " " + adult.LastName});
+            }
+        }
+        
+    }
+    
+    private async Task RemoveFamilyByHouseStreetAndNo(string streetName, int streetNo)
+    {
+        Family familyToRemove = await WebFamilyService.RemoveFamily(streetName, streetNo);
+        if (!(familyToRemove is null))
+        {
+            _families.Remove(_families.First(family => family.HouseNumber == familyToRemove.HouseNumber && family.StreetName == familyToRemove.StreetName));
+            StateHasChanged();
+        }
+    }
+
+    void EditThisFamily(int? familyId)
+    {
+        NavigationManager.NavigateTo($"/edit-family?id={familyId}");
+    }
+    
+}

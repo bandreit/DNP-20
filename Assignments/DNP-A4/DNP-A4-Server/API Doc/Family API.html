@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Family.css" />
+    <title>Family API</title>
+  </head>
+  <body>
+    <h2>Family Data Web API Documentation</h2>
+
+    <!-- Family below -->
+
+    <br />
+    <h3>Family</h3>
+    <section>
+      The Family is sent back and forth as json. <br />
+      The format of a Family is seen in the example below. A Family has a
+      collection of Adults, a collection of Children, and a collection of Pets.
+      <pre>
+{
+    "ID": 0,
+    "StreetName": "Eastern Cestaand",
+    "HouseNumber": 1,
+    "Adults": [
+        {
+            "JobTitle": "Science Teacher",
+            "ID": 0,
+            "FirstName": "Harper",
+            "LastName": "Knapp",
+            "HairColor": "Black",
+            "EyeColor": "Brown",
+            "Age": 46,
+            "Weight": 74.4,
+            "Height": 176,
+            "Sex": "M"
+        },
+        {
+            "JobTitle": "Business Reporter",
+            "ID": 0,
+            "FirstName": "Anali",
+            "LastName": "Warren",
+            "HairColor": "Black",
+            "EyeColor": "Brown",
+            "Age": 49,
+            "Weight": 93,
+            "Height": 165,
+            "Sex": "F"
+        }
+    ],
+    "Children": [
+        {
+            "ChildInterests": [
+                {
+                    "InterestId": "Paiting"
+                }
+            ],
+            "Pets": [
+
+            ],
+            "ID": 0,
+            "FirstName": "Florence",
+            "LastName": "Warren",
+            "HairColor": "Brown",
+            "EyeColor": "Brown",
+            "Age": 27,
+            "Weight": 48.11,
+            "Height": 144,
+            "Sex": "F"
+        },
+        {
+            "ChildInterests": [
+                {
+                    "InterestId": "Handball"
+                },
+                {
+                    "InterestId": "Mountain Biking"
+                },
+                {
+                    "InterestId": "Bowling"
+                }
+            ],
+            "Pets": [
+                {
+                    "ID": 1,
+                    "Species": "Rat",
+                    "Name": "Twinkle",
+                    "Age": 4
+                }
+            ],
+            "ID": 2,
+            "FirstName": "Isabella",
+            "LastName": "Warren",
+            "HairColor": "Brown",
+            "EyeColor": "Brown",
+            "Age": 17,
+            "Weight": 47.940002,
+            "Height": 151,
+            "Sex": "F"
+        }
+    ],
+    "Pets": [
+        {
+            "ID": 4,
+            "Species": "Dog",
+            "Name": "Barky",
+            "Age": 7
+        }
+    ]
+}
+            </pre
+      >
+    </section>
+    <table>
+      <tr>
+        <th>API</th>
+        <th>Request</th>
+        <th>Sub-path</th>
+        <th>Description</th>
+        <th>Exceptions</th>
+      </tr>
+      <tr>
+        <th rowspan="5" class="API">/Families</th>
+        <td rowspan="2">GET</td>
+        <td></td>
+        <td>
+          <section class="description">
+            Use this to get a Collection of families.<br />
+            Example:
+            <ul class="example">
+              <li>.../Families</li>
+            </ul>
+          </section>
+        </td>
+        <td>May return 500 Internal Server Error, if something failed.</td>
+      </tr>
+
+      <tr>
+        <td>/{id:int}</td>
+        <td>
+          <section class="description">
+            Use this to get a specifc family.<br />
+            Example:
+            <ul class="example">
+              <li>.../Families/1</li>
+            </ul>
+          </section>
+        </td>
+        <td>May return 500 Internal Server Error, if something failed.</td>
+      </tr>
+
+      <tr>
+        <td>POST</td>
+        <td></td>
+        <td>
+          <section class="description">
+            Use this to create a new Family. Provide the Family as json in the
+            request body.<br />
+            Example:
+            <ul class="example">
+              <li>.../Families</li>
+            </ul>
+          </section>
+        </td>
+        <td>
+          May return 400 Bad Request, if the provided Family is invalid. May
+          return 500 Internal Server Error, if something failed.
+        </td>
+      </tr>
+
+      <tr>
+        <td>PUT</td>
+        <td></td>
+        <td>
+          <section class="description">
+            Use this to update a Family. Provide the Family as json in the
+            request body.<br />
+            Example:
+            <ul class="example">
+              <li>.../Families/1</li>
+            </ul>
+          </section>
+        </td>
+        <td>May return 500 Internal Server Error, if something failed.</td>
+      </tr>
+
+      <tr>
+        <td>DELETE</td>
+        <td></td>
+        <td>
+          <section class="description">
+            Use this to delete a Family. The deleted family is returned. You
+            must provide two query parameters:<br />
+            <ul>
+              <li>streetname</li>
+              <li>housenumber</li>
+            </ul>
+            Example:
+            <ul class="example">
+              <li>.../Families?streetname=farvergade&amp;housenumber=3</li>
+            </ul>
+          </section>
+        </td>
+        <td>May return 500 Internal Server Error, if something failed.</td>
+      </tr>
+    </table>
+
+    <!-- Adult Below -->
+
+    <h3>Adult</h3>
+    <section>
+      The Adult is sent back and forth as json.<br />
+      The json format is seen in the example below:<br />
+      <pre>
+{
+    "JobTitle": "Tutor", 
+    "ID": 0,
+    "FirstName": "Aryan",
+    "LastName": "Gifford",
+    "HairColor": "Black",
+    "EyeColor": "Brown",
+    "Age": 56,
+    "Weight": 99.2,
+    "Height": 172,
+    "Sex": "M"
+}
+            </pre
+      >
+    </section>
+    <table>
+      <tr>
+        <th>API</th>
+        <th>Request</th>
+        <th>Description</th>
+        <th>Exceptions</th>
+      </tr>
+      <tr>
+        <th rowspan="5" class="API">/Adults</th>
+        <td>GET</td>
+        <td>
+          <section class="description">
+            This request will return a collection of Adults. <br />
+            Example:
+            <ul class="example">
+              <li>.../Adults</li>
+            </ul>
+          </section>
+        </td>
+
+        <td>May return 500 Internal Server Error, if something fails.</td>
+      </tr>
+
+      <tr>
+        <td>POST</td>
+        <td>
+          <section class="description">
+            Use this to create a new Adult. Returns the created Adult. Provide
+            the Adult as json in the request body.<br />
+            Example:
+            <ul class="example">
+              <li>.../Adults</li>
+            </ul>
+          </section>
+        </td>
+        <td>
+          <p>
+            May return 400 Bad Request, if the data is invalid.<br />
+            May return 500 Internal Server Error, if something fails when
+            creating the adult.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Authentification -->
+    <h3>Authenticate</h3>
+    <section>
+      The User is sent back and forth as json.<br />
+      The json format is seen in the example below:<br />
+      <pre>
+{
+    "City" = "Aarhus",
+    "Domain" = "hotmail.com",
+    "Password" = "654321",
+    "Role" = "Student",
+    "BirthYear" = 1998,
+    "SecurityLevel" = 2,
+    "UserName" = "Jakob"
+}
+            </pre
+      >
+    </section>
+    <table>
+      <tr>
+        <th>API</th>
+        <th>Request</th>
+        <th>Description</th>
+        <th>Exceptions</th>
+      </tr>
+      <tr>
+        <th rowspan="5" class="API">/Authenticate</th>
+        <td>GET</td>
+        <td>
+          <section class="description">
+            Use this to delete a Family. The deleted family is returned. You
+            must provide two query parameters:<br />
+            <ul>
+              <li>streetname</li>
+              <li>housenumber</li>
+            </ul>
+            Example:
+            <ul class="example">
+              <li>.../Families?streetname=farvergade&amp;housenumber=3</li>
+            </ul>
+          </section>
+        </td>
+
+        <td>May return 500 Internal Server Error, if something fails.</td>
+      </tr>
+    </table>
+  </body>
+</html>
