@@ -72,68 +72,153 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f83b860-de0e-494b-aaad-560035d6b07e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPStructureTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A1/DNP-A1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/obj/Debug/netcoreapp3.1/DNP-A2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/obj/Debug/netcoreapp3.1/DNP-A2.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A2/DNP-A2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/bin/Debug/netcoreapp3.1/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/Razor/Pages/EditFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/Razor/Pages/EditFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A3-Client.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditFamily.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditFamily.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/DNP-A3-Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/families.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/bin/Debug/netcoreapp3.1/families.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/Debug/netcoreapp3.1/DNP-A3-Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNPStructureTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DNPStructureTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex10/S1-Ex10/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex11/S1-Ex11/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/Debug/netcoreapp3.1/S1-Ex3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex4/S1-Ex4/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex7/S1-Ex7/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex8/S1-Ex8/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/S1-Ex9/S1-Ex9/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex2/S2-Ex2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex3/S2-Ex3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex4/S2-Ex4/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex5/S2-Ex5/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session2/S2-Ex6/S2-Ex6/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex1/S3-Ex1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex2/S3-Ex2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex3 - Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex4/Ex4_Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex5/Ex5_Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/Debug/netcoreapp3.1/Ex7_Client.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Client/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/Ex7_Server/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/S3-Ex7/TransferObject/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session4 - Blazor Web Stuff/WebApplication/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/AuthentificationLogic/WebApplicationWithLogic/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session5/ToDoWithAuth/ToDoWAuth/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session7/Hangman/WebApplication/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/Debug/netcoreapp3.1/EntityCoreTodos.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/Debug/netcoreapp3.1/EntityCoreTodos.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Session9/EntityCoreTods/EntityCoreTodos/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/App.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Authentication/CustomAuthenticationStateProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/DNP-A4-Client.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/IUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/IWebAdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/IWebFamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/Impl/UserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/Impl/WebAdultService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Data/Impl/WebFamilyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Adult.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Child.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/ChildInterest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Family.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Interest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/Pet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Models/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/AddAdult.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/AddFamily.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/AdultsList.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/EditFamily.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/FamiliesList.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/Index.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/Statistics.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/_Host.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Shared/Components/FamilyCard.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Shared/LogInComponent.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Shared/MainLayout.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Shared/NavMenu.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Shared/SurveyPrompt.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/_Imports.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/DNP-A4-Client.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Microsoft.JSInterop.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Syncfusion.Blazor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Syncfusion.ExcelExport.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Syncfusion.Licensing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/Syncfusion.PdfExport.Net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/DNP-A4-Client.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/DNP-A4-Client.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/DNP-A4-Client.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorComponent.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/DNP-A4-Client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/AddFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/AdultsList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/EditFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/FamiliesList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/Statistics.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Shared/Components/FamilyCard.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Shared/LogInComponent.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A4-Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/DNP-A4-Client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AdultsList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditFamily.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FamiliesList.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FetchData.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Statistics.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/Components/FamilyCard.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/LogInComponent.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/staticwebassets/DNP-A4-Client.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/Debug/netcoreapp3.1/staticwebassets/DNP-A4-Client.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/images/family.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/wwwroot/images/relationship.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +294,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3FD7A0AC-6888-4E62-A431-2A42CFFF88FC/12/HubConnectionHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44AB5333-C7A5-4525-A7D8-E8667DEC7447/9/DotNetDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44AB5333-C7A5-4525-A7D8-E8667DEC7447/7/JSRuntime.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Client/Pages/EditFamily.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/44AB5333-C7A5-4525-A7D8-E8667DEC7447/E/TaskGenericsUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/16E/TaskCompletionSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/85/203bbfe2/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -324,8 +408,8 @@
         <option value="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Server/Migrations/20201127223631_CascadeOnDeleteForeignKeys.Designer.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Server/Startup.cs" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Server/Persistence/ViaDbContext.cs" />
-        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" />
         <option value="$PROJECT_DIR$/Assignments/DNP-A4/DNP-A4-Server/Data/Impl/FamilyService.cs" />
+        <option value="$PROJECT_DIR$/Assignments/DNP-A3/DNP-A3-Client/Pages/EditFamily.razor" />
       </list>
     </option>
   </component>
@@ -1199,7 +1283,7 @@
       <workItem from="1604835358140" duration="13507000" />
       <workItem from="1604919821417" duration="27909000" />
       <workItem from="1606219237721" duration="18861000" />
-      <workItem from="1606417859277" duration="52883000" />
+      <workItem from="1606417859277" duration="52976000" />
     </task>
     <servers />
   </component>
@@ -1248,22 +1332,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="628" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599132304453" />
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1606680914355">
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1606686299913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606680914355" />
-    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1606680914354">
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606686299913" />
+    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1606686299912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606680914354" />
-    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1606680914354">
+    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606686299912" />
+    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1606686299911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606680914354" />
-    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1606680914354">
+    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606686299911" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1606686299912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606680914354" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606686299912" />
     <state width="1493" height="344" key="GridCell.Tab.1.bottom" timestamp="1606680583104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
